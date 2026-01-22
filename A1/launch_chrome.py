@@ -38,11 +38,12 @@ def launch_chrome_with_extension(url="https://google.com"):
     profile_dir = os.path.join(os.path.dirname(__file__), "chrome_profile")
     os.makedirs(profile_dir, exist_ok=True)
     
-    # Chrome args to load extension with persistent profile
+    # Chrome args to load extension with persistent profile + CDP
     args = [
         chrome,
         f"--user-data-dir={profile_dir}",
         f"--load-extension={EXTENSION_PATH}",
+        "--remote-debugging-port=9222",  # CDP access!
         "--no-first-run",
         "--no-default-browser-check",
         url
