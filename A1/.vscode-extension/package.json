@@ -1,0 +1,36 @@
+{
+    "name": "jarvis-browser-bridge",
+    "displayName": "JARVIS Browser Bridge",
+    "description": "Real-time browser control for Gemini AI",
+    "version": "1.0.0",
+    "publisher": "jarvis",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "jarvis.startBrowser",
+                "title": "JARVIS: Start Browser"
+            },
+            {
+                "command": "jarvis.stopBrowser",
+                "title": "JARVIS: Stop Browser"
+            },
+            {
+                "command": "jarvis.getDOM",
+                "title": "JARVIS: Get Page DOM"
+            }
+        ]
+    },
+    "dependencies": {
+        "ws": "^8.14.0"
+    }
+}

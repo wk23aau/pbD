@@ -1,0 +1,9 @@
+{
+  "name": "com.jarvis.browser",
+  "description": "JARVIS Browser Bridge Native Host",
+  "path": "C:\\Users\\wk23aau\\Downloads\\xspace\\xswarm\\A1\\native_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://jarvis_browser_bridge/"
+  ]
+}

@@ -1,0 +1,6 @@
+# Screenshots and temp files
+A1/screenshots/
+A1/chrome_profile/
+__pycache__/
+*.pyc
+.vscode-extension/node_modules/
