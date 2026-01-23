@@ -288,22 +288,66 @@ class CDPClient:
             ''')
             return result
     
-    async def type_text(self, selector: str, text: str) -> bool:
-        """Type text into element"""
-        escaped = text.replace("\\", "\\\\").replace('"', '\\"')
-        result = await self.evaluate(f'''
-            (() => {{
-                const el = document.querySelector("{selector}");
-                if (el) {{
-                    el.focus();
-                    el.value = "{escaped}";
-                    el.dispatchEvent(new Event("input", {{bubbles: true}}));
-                    return true;
-                }}
-                return false;
-            }})()
-        ''')
-        return result
+    async def type_text(self, selector: str, text: str, delay: float = 0.05) -> bool:
+        """Type text into element using CDP Input (like subagent)"""
+        try:
+            # First click to focus the element
+            clicked = await self.click(selector)
+            if not clicked:
+                print(f"⚠️ Could not focus {selector}")
+                return False
+            
+            await asyncio.sleep(0.1)  # Wait for focus
+            
+            # Clear existing content
+            await self.send("Input.dispatchKeyEvent", {
+                "type": "keyDown",
+                "key": "a",
+                "modifiers": 2  # Ctrl
+            })
+            await self.send("Input.dispatchKeyEvent", {
+                "type": "keyUp",
+                "key": "a",
+                "modifiers": 2
+            })
+            await self.send("Input.dispatchKeyEvent", {
+                "type": "keyDown",
+                "key": "Backspace"
+            })
+            await self.send("Input.dispatchKeyEvent", {
+                "type": "keyUp",
+                "key": "Backspace"
+            })
+            
+            # Type each character using Input.insertText (triggers React)
+            await self.send("Input.insertText", {"text": text})
+            
+            print(f"⌨️ Typed: {text[:20]}{'...' if len(text) > 20 else ''}")
+            return True
+            
+        except Exception as e:
+            print(f"⚠️ Type failed: {e}, falling back to JS")
+            # Fallback to JS
+            escaped = text.replace("\\", "\\\\").replace('"', '\\"')
+            result = await self.evaluate(f'''
+                (() => {{
+                    const el = document.querySelector("{selector}");
+                    if (el) {{
+                        el.focus();
+                        el.value = "{escaped}";
+                        el.dispatchEvent(new Event("input", {{bubbles: true}}));
+                        el.dispatchEvent(new Event("change", {{bubbles: true}}));
+                        return true;
+                    }}
+                    return false;
+                }})()
+            ''')
+            return result
+    
+    async def wait(self, ms: int = 500):
+        """Smart wait between actions"""
+        await asyncio.sleep(ms / 1000)
+        print(f"⏳ Waited: {ms}ms")
     
     async def get_dom(self) -> str:
         """Get page HTML"""
