@@ -1,0 +1,14 @@
+# pbD Browser Automation - Requirements
+
+# Core CDP/WebSocket
+websockets>=11.0
+aiohttp>=3.9.0
+
+# Browser automation
+playwright>=1.40.0
+
+# Windows automation (for a1.py trigger)
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+pywin32>=306
+pywinauto>=0.6.8
