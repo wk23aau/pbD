@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "为保护您的交易，$PRODUCT_NAME$ 已在您的银行保护会话期间阻止此网站。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "被银行保护阻止"
+   },
+   "block_malicious_content": {
+      "message": "$PRODUCT_NAME$ 检测到此页面上有恶意内容并已阻止。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "已阻止恶意内容。"
+   },
+   "blockpage_banking_allow": {
+      "message": "如果您需要访问该网站以完成交易，请允许该网站。"
+   },
+   "blockpage_banking_description": {
+      "message": "该网站被暂时封锁，以防止您在打开银行网站时意外泄露您的信息。"
+   },
+   "blockpage_banking_heading": {
+      "message": "关闭所有银行选项卡以访问此网站。"
+   },
+   "blockpage_banking_title": {
+      "message": "银行保护 "
+   },
+   "blockpage_blocked": {
+      "message": "已拒绝网站"
+   },
+   "blockpage_child_allow": {
+      "message": "允许此网站"
+   },
+   "blockpage_child_description": {
+      "message": "您仅可访问这些网站："
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "还没有允许的网站。"
+   },
+   "blockpage_child_heading": {
+      "message": "已拒绝网站"
+   },
+   "blockpage_child_note": {
+      "message": "您也可更改"
+   },
+   "blockpage_child_note_link": {
+      "message": "允许和拒绝的网站"
+   },
+   "blockpage_child_title": {
+      "message": "已拒绝网站"
+   },
+   "blockpage_denied_allow": {
+      "message": "允许此计算机上的网站"
+   },
+   "blockpage_denied_description": {
+      "message": "$PRODUCT_NAME$ 帐户管理器已阻止对此网站的访问。您需要权限方可继续。 ",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "网站已阻止 "
+   },
+   "blockpage_denied_title": {
+      "message": "网站已阻止 "
+   },
+   "blockpage_harmful_allow": {
+      "message": "允许此计算机上的网站"
+   },
+   "blockpage_harmful_description": {
+      "message": "$PRODUCT_NAME$ 已将此网站列为有害。建议您不要进入此网站。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "您不应在此冲浪"
+   },
+   "blockpage_harmful_report": {
+      "message": "在此报告误报情况"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "不认为其有害？"
+   },
+   "blockpage_harmful_title": {
+      "message": "已阻止有害网站 "
+   },
+   "blockpage_illegal_allow": {
+      "message": "仍然访问"
+   },
+   "blockpage_illegal_description": {
+      "message": "$PRODUCT_NAME$ 已举报此网站包含禁止内容。强烈建议您不要进入此网站。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "禁止的网站"
+   },
+   "blockpage_illegal_report": {
+      "message": "在此报告误报情况"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "不认为其有害？"
+   },
+   "blockpage_illegal_title": {
+      "message": "已阻止禁止的网站"
+   },
+   "blockpage_parental_allow": {
+      "message": "允许此计算机上的网站"
+   },
+   "blockpage_parental_description": {
+      "message": "$PRODUCT_NAME$ 已阻止此内容，因为其类别受限制：",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "网站已阻止 "
+   },
+   "blockpage_parental_report": {
+      "message": "报告误报网站"
+   },
+   "blockpage_parental_title": {
+      "message": "网站已阻止 "
+   },
+   "blockpage_suspicious_allow": {
+      "message": "仍然访问"
+   },
+   "blockpage_suspicious_description": {
+      "message": "$PRODUCT_NAME$ 已将此网站列为可疑。建议您不要进入此网站。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "您不应在此冲浪"
+   },
+   "blockpage_suspicious_report": {
+      "message": "在此报告误报情况"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "不认为其有害？"
+   },
+   "blockpage_suspicious_title": {
+      "message": "已阻止可疑网站"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "此购物网站有几个红旗。这有可能是诈骗网站！"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "您不应在此冲浪"
+   },
+   "category_abortion": {
+      "message": "堕胎"
+   },
+   "category_adserving": {
+      "message": "广告推送"
+   },
+   "category_adult": {
+      "message": "成人"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "酒精和烟草"
+   },
+   "category_anonymizers": {
+      "message": "匿名工具"
+   },
+   "category_auctions": {
+      "message": "拍卖"
+   },
+   "category_banking": {
+      "message": "银行"
+   },
+   "category_blogs": {
+      "message": "博客"
+   },
+   "category_chat": {
+      "message": "聊天"
+   },
+   "category_dating": {
+      "message": "约会"
+   },
+   "category_disturbing": {
+      "message": "干扰性"
+   },
+   "category_drugs": {
+      "message": "毒品"
+   },
+   "category_entertainment": {
+      "message": "娱乐"
+   },
+   "category_file_sharing": {
+      "message": "文件共享"
+   },
+   "category_forums": {
+      "message": "论坛"
+   },
+   "category_gambling": {
+      "message": "赌博"
+   },
+   "category_games": {
+      "message": "游戏"
+   },
+   "category_hacking": {
+      "message": "黑客攻击"
+   },
+   "category_hate": {
+      "message": "憎恨"
+   },
+   "category_illegal": {
+      "message": "非法"
+   },
+   "category_illegal_downloads": {
+      "message": "非法下载"
+   },
+   "category_job_search": {
+      "message": "求职"
+   },
+   "category_payment_services": {
+      "message": "支付服务"
+   },
+   "category_scam": {
+      "message": "欺诈"
+   },
+   "category_search_engines": {
+      "message": "搜索引擎"
+   },
+   "category_shopping": {
+      "message": "购物"
+   },
+   "category_shopping_and_auctions": {
+      "message": "购物和拍卖"
+   },
+   "category_social_networks": {
+      "message": "社会网络"
+   },
+   "category_software_downloads": {
+      "message": "软件下载"
+   },
+   "category_spam": {
+      "message": "垃圾邮件"
+   },
+   "category_streaming_media": {
+      "message": "流媒体"
+   },
+   "category_travel": {
+      "message": "旅行"
+   },
+   "category_unknown": {
+      "message": "未知"
+   },
+   "category_violence": {
+      "message": "暴力"
+   },
+   "category_weapons": {
+      "message": "武器"
+   },
+   "category_webmail": {
+      "message": "Web 邮件"
+   },
+   "close_btn": {
+      "message": "关闭"
+   },
+   "cookie_blocker_p1": {
+      "message": "本网站自动拒绝非必要的 Cookie。"
+   },
+   "error_ca_text_p1": {
+      "message": "无法连接至应用程序"
+   },
+   "error_ca_text_p2": {
+      "message": "检查您的配置"
+   },
+   "ext_description": {
+      "message": "通过 F-Secure 安全产品保护加密浏览的扩展。"
+   },
+   "ext_name": {
+      "message": "F-Secure 浏览保护"
+   },
+   "ext_name_alpha": {
+      "message": "F-Secure 浏览保护 (最初)"
+   },
+   "ext_name_beta": {
+      "message": "F-Secure 浏览保护 (贝塔)"
+   },
+   "ext_name_safari_full": {
+      "message": "F-Secure 安全浏览"
+   },
+   "ext_name_safari_short": {
+      "message": "安全浏览"
+   },
+   "ext_onboarding_acccept": {
+      "message": "接受"
+   },
+   "ext_onboarding_allow": {
+      "message": "允许"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "扩展安装完成。现在将关闭页面。"
+   },
+   "ext_onboarding_decline": {
+      "message": "拒绝"
+   },
+   "ext_onboarding_description": {
+      "message": "接受权限？"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "为了防止恶意网站对您造成伤害，$EXTENSION_NAME$ 会扫描您访问的网站地址，以检查它们是否已知是有害的。地址 (URL) 不会识别个人身份，并由我们的自动化 Security Cloud 根据我们的 \u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a> 进行处理。",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1 "
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2 "
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "保护您的浏览需经过同意"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "扩展安装取消。现在将卸载扩展。"
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "隐私策略 "
+   },
+   "ext_open_consent": {
+      "message": "打开"
+   },
+   "ext_show_consent_msg": {
+      "message": "请访问同意页面。"
+   },
+   "learn_more": {
+      "message": "了解更多信息"
+   },
+   "manage_protection": {
+      "message": "更改通知设置"
+   },
+   "open_settings": {
+      "message": "打开诈骗防护设置"
+   },
+   "page_adblock_allowed_count": {
+      "message": "已允许此网站上的广告"
+   },
+   "page_adblock_blocked_count": {
+      "message": "已阻止此网站上的 $COUNT$ 个广告",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1 "
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "此网站广告拦截器已关闭"
+   },
+   "page_adblock_feature_on": {
+      "message": "此网站广告拦截器已开启"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "从 $PRODUCT_NAME$ 设置将其开启",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "广告阻止程序未启用"
+   },
+   "page_back": {
+      "message": "上一步"
+   },
+   "page_banking": {
+      "message": "银行网站"
+   },
+   "page_blocked": {
+      "message": "已拒绝网站"
+   },
+   "page_cancel": {
+      "message": "取消"
+   },
+   "page_harmful": {
+      "message": "有害网站"
+   },
+   "page_next": {
+      "message": "下一步"
+   },
+   "page_not_available": {
+      "message": "评级信息不可用 "
+   },
+   "page_prohibited": {
+      "message": "禁止的网站"
+   },
+   "page_report": {
+      "message": "报告"
+   },
+   "page_report_banking": {
+      "message": "将其报告为银行。"
+   },
+   "page_report_ext": {
+      "message": "举报此网站"
+   },
+   "page_report_harmful": {
+      "message": "将其报告为有害。"
+   },
+   "page_report_safe": {
+      "message": "将其报告为安全。"
+   },
+   "page_report_suspicious": {
+      "message": "将其报告为可疑。"
+   },
+   "page_safe": {
+      "message": "安全网站"
+   },
+   "page_success_p1": {
+      "message": "谢谢！我们很快会分析报告并调整此网站的评级。"
+   },
+   "page_suggest_category": {
+      "message": "选择适用于此网站的类别："
+   },
+   "page_suggest_rating": {
+      "message": "显示新的等级或类别："
+   },
+   "page_suspicious": {
+      "message": "可疑网站"
+   },
+   "page_suspicious_p1": {
+      "message": "描述此页面为何看起来可疑"
+   },
+   "page_unsafe": {
+      "message": "不安全的网站"
+   },
+   "page_wrong_cat_1": {
+      "message": "选择类别"
+   },
+   "page_wrong_cat_2": {
+      "message": "更改家庭规则类别"
+   },
+   "page_wrong_rating_1": {
+      "message": "如果您认为此网站评级不正确，请向我们举报。"
+   },
+   "page_wrong_rating_2": {
+      "message": "向我们发送报告以帮助我们。"
+   },
+   "popup_error_description": {
+      "message": "您的应用程序已卸载，或您没有兼容的版本。安装最新版本的应用程序，然后重试。"
+   },
+   "popup_error_header": {
+      "message": "找不到安全应用程序"
+   },
+   "popup_status_init": {
+      "message": "正在初始化..."
+   },
+   "popup_status_ok": {
+      "message": "您的浏览器处于受保护状态"
+   },
+   "search_rating_allowed": {
+      "message": "此网站已由管理员允许"
+   },
+   "search_rating_banking": {
+      "message": "本网站暂时予以封锁，以保护您在使用银行会话期间的安全"
+   },
+   "search_rating_category_adult": {
+      "message": "成人"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "酒精和烟草"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "匿名工具"
+   },
+   "search_rating_category_dating": {
+      "message": "约会"
+   },
+   "search_rating_category_disturbing": {
+      "message": "干扰性"
+   },
+   "search_rating_category_drugs": {
+      "message": "毒品"
+   },
+   "search_rating_category_gambling": {
+      "message": "赌博"
+   },
+   "search_rating_category_hate": {
+      "message": "憎恨"
+   },
+   "search_rating_category_illegal": {
+      "message": "非法"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "非法下载"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "购物和拍卖"
+   },
+   "search_rating_category_social_networks": {
+      "message": "社会网络"
+   },
+   "search_rating_category_status": {
+      "message": "此网站受家庭规则的限制"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "流媒体"
+   },
+   "search_rating_category_unknown": {
+      "message": "未知"
+   },
+   "search_rating_category_violence": {
+      "message": "暴力"
+   },
+   "search_rating_category_weapons": {
+      "message": "武器"
+   },
+   "search_rating_denied": {
+      "message": "此网站已由管理员拒绝"
+   },
+   "search_rating_harmful": {
+      "message": "此网站评定为不安全，您不应在此浏览。"
+   },
+   "search_rating_harmful_p1": {
+      "message": "此网站评定为不安全"
+   },
+   "search_rating_harmful_p2": {
+      "message": "您不应在此浏览"
+   },
+   "search_rating_illegal": {
+      "message": "此网站已被禁止。"
+   },
+   "search_rating_isbank": {
+      "message": "这是信任的在线银行网站。"
+   },
+   "search_rating_loading": {
+      "message": "正在加载..."
+   },
+   "search_rating_restricted": {
+      "message": "此网站包含受限内容"
+   },
+   "search_rating_safe": {
+      "message": "此网站看来安全。"
+   },
+   "search_rating_safe_p1": {
+      "message": "此网站安全"
+   },
+   "search_rating_safe_p2": {
+      "message": "祝您在此愉快浏览"
+   },
+   "search_rating_shopping_caution": {
+      "message": "此网站评分不高"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "此购物网站可能是安全的，但它没有获得满分。"
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "此网站可疑"
+   },
+   "search_rating_shopping_warn": {
+      "message": "此网站不安全"
+   },
+   "search_rating_suspicious": {
+      "message": "此站点可疑。"
+   },
+   "search_rating_suspicious_p1": {
+      "message": "此站点可疑"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "浏览时请小心"
+   },
+   "search_rating_unknown": {
+      "message": "此站点未经分析。"
+   },
+   "trusted_shopping_harmful": {
+      "message": "您打开了不安全的购物网站。"
+   },
+   "trusted_shopping_instructions": {
+      "message": "在 $PRODUCT_NAME$ 设置中更改此通知可见性。",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1 "
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "基于多次审核和安全评分。"
+   },
+   "trusted_shopping_risky": {
+      "message": "此网站可能不安全。我们建议在此浏览时要小心。"
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "在此网站购物是安全的。"
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "此购物网站评价高且可信，好好享受您的购物吧！"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "此网站不完全可信。我们建议在此浏览时要小心。"
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "在本网站上购物时请谨慎。"
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "此网站未经分析。"
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "在本网站上购物时请谨慎。"
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "在此网站购物是安全的，但它没有获得满分的安全评分。 "
+   },
+   "url_not_available": {
+      "message": "无 URL 可用"
+   },
+   "website_categories": {
+      "message": "网站类别"
+   }
+}

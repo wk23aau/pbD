@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../ols.css">
+    <link rel="stylesheet" type="text/css" href="block.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="fs-automation-id" content="block.shoppingUnsafe">
+    <title data-locale="blockpage_harmful_title"></title>
+    <link rel="shortcut icon" link sizes="any" type="image/svg+xml" href="../img/icon_blocked.svg"/>
+    <script type="text/javascript" src="../browser_storage.js"></script>
+    <script type="text/javascript" src="../constants.js"></script>
+    <script type="text/javascript" src="../browser_resolver.js"></script>
+    <script type="text/javascript" src="../log.js"></script>
+    <script type="text/javascript" src="../common_styles.js"></script>
+    <script type="text/javascript" src="../content_scripts/nif2_schema_monitoring.js"></script>
+    <script type="text/javascript" src="block.js"></script>
+  </head>
+  <body>
+    <header class="product-logo">
+    </header>
+    <div class="wrapper">
+      <div class="bg-pic bg-shoppingblock"></div>
+      <h2 data-locale="blockpage_trusted_shopping_title"></h2>
+      <h3 id="url" class="red"></h3>
+      <p data-locale="blockpage_trusted_shopping_description"></p>
+      <p class="fp_after_allow_website">
+        <span data-locale="blockpage_harmful_report_note"></span>
+        <br><br>
+        <a id="report-link" class="link" target="new_tab">
+          <span data-locale="blockpage_harmful_report"></span>
+        </a>
+      </p> 
+      <button id="website-allow" class="button-no-border">
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div class="admin-shield-icon" style="display: inline-block;"></div>
+            <div data-locale="blockpage_denied_allow"></div>
+        </div>
+      </button>
+    </div>
+    <footer id="footer">
+      <div class="bg-pic">
+        <object class="bg-by-fsecure" type="image/svg+xml" data="../img/by_fsecure.svg"></object>
+      </div>
+    </footer>
+  </body>
+</html>

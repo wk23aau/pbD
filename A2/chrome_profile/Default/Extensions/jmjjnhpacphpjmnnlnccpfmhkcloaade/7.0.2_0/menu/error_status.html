@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title data-locale="ext_name"></title>
+    <script src="../browser_storage.js"></script>
+    <script src="../browser_resolver.js"></script>
+    <script src="../log.js"></script>
+    <script src="../common_styles.js"></script>
+    <script src="../constants.js"></script>
+    <script src="../content_scripts/nif2_schema_monitoring.js"></script>
+    <script src="popup_menu.js"></script>
+    <link rel="stylesheet" href="../ols.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <header class="error-header-panel">
+        <div data-locale="ext_name" class="extension-name" id="extension-name"></div>
+    </header>
+    <div class="content-panel" id="content-panel">
+        <h1 data-locale="popup_error_header"></h1>
+        <p data-locale="popup_error_description"></p>
+    </div>
+    <footer class="footer-panel">
+      <div class="bg-by-fsecure">
+      </div>
+  </footer>
+  </body>
+</html>

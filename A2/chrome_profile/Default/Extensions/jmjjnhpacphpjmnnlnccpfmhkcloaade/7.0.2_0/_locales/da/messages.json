@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "For at beskytte dine transaktioner har $PRODUCT_NAME$ blokeret dette websted under din bankbeskyttelsessession.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "Blokeret af Bankbeskyttelse"
+   },
+   "block_malicious_content": {
+      "message": "$PRODUCT_NAME$ har slettet skadeligt indhold på denne side og blokeret det.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "Skadeligt indhold blev blokeret."
+   },
+   "blockpage_banking_allow": {
+      "message": "Tillad dette websted, hvis du har brug for at tilgå det for at fuldføre transaktioner."
+   },
+   "blockpage_banking_description": {
+      "message": "Dette websted blev midlertidigt blokeret for at forhindre dig i utilsigtet at afsløre dine oplysninger, mens du har netbank åben."
+   },
+   "blockpage_banking_heading": {
+      "message": "Luk alle netbankfaner for at komme ind på dette websted."
+   },
+   "blockpage_banking_title": {
+      "message": "Bankbeskyttelse"
+   },
+   "blockpage_blocked": {
+      "message": "Afvist websted"
+   },
+   "blockpage_child_allow": {
+      "message": "Tillad dette websted"
+   },
+   "blockpage_child_description": {
+      "message": "Du kan kun få adgang til disse websteder:"
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "Ingen tilladte websteder endnu."
+   },
+   "blockpage_child_heading": {
+      "message": "Afvist websted"
+   },
+   "blockpage_child_note": {
+      "message": "Du kan også foretage ændringer af"
+   },
+   "blockpage_child_note_link": {
+      "message": "tilladte og afviste websteder"
+   },
+   "blockpage_child_title": {
+      "message": "Afvist websted"
+   },
+   "blockpage_denied_allow": {
+      "message": "Tillad websted på denne computer"
+   },
+   "blockpage_denied_description": {
+      "message": "$PRODUCT_NAME$-kontoadministratoren har blokeret adgang til dette websted. Du har brug for vedkommendes tilladelse for at kunne fortsætte.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "Websted blokeret"
+   },
+   "blockpage_denied_title": {
+      "message": "Websted blokeret"
+   },
+   "blockpage_harmful_allow": {
+      "message": "Tillad websted på denne computer"
+   },
+   "blockpage_harmful_description": {
+      "message": "$PRODUCT_NAME$ har anført dette websted som skadeligt. Vi anbefaler, at du ikke besøger dette websted.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "Du bør ikke surfe her"
+   },
+   "blockpage_harmful_report": {
+      "message": "Rapporter en falsk alarm her"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "Tror du ikke, at dette er skadeligt?"
+   },
+   "blockpage_harmful_title": {
+      "message": "Skadeligt websted blokeret"
+   },
+   "blockpage_illegal_allow": {
+      "message": "Tilgå alligevel"
+   },
+   "blockpage_illegal_description": {
+      "message": "$PRODUCT_NAME$ har rapporteret, at dette websted har forbudt indhold. Det anbefales kraftigt, at du ikke besøger dette websted.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "Forbudt websted"
+   },
+   "blockpage_illegal_report": {
+      "message": "Rapporter en falsk alarm her"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "Tror du ikke, at dette er skadeligt?"
+   },
+   "blockpage_illegal_title": {
+      "message": "Forbudt websted blokeret"
+   },
+   "blockpage_parental_allow": {
+      "message": "Tillad websted på denne computer"
+   },
+   "blockpage_parental_description": {
+      "message": "$PRODUCT_NAME$ har blokeret dette indhold, fordi det er begrænset i kategori: ",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "Websted blokeret"
+   },
+   "blockpage_parental_report": {
+      "message": "Rapporter et falsk positivt websted"
+   },
+   "blockpage_parental_title": {
+      "message": "Websted blokeret"
+   },
+   "blockpage_suspicious_allow": {
+      "message": "Tilgå alligevel"
+   },
+   "blockpage_suspicious_description": {
+      "message": "$PRODUCT_NAME$ har anført dette websted som mistænkeligt. Vi anbefaler, at du ikke besøger dette websted.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "Du bør ikke surfe her"
+   },
+   "blockpage_suspicious_report": {
+      "message": "Rapporter en falsk alarm her"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "Tror du ikke, at dette er skadeligt?"
+   },
+   "blockpage_suspicious_title": {
+      "message": "Mistænkeligt websted blokeret"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "Dette shoppingwebsted har flere røde flag. Det er sandsynligvis et svindelwebsted!"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "Du bør ikke surfe her"
+   },
+   "category_abortion": {
+      "message": "Abort"
+   },
+   "category_adserving": {
+      "message": "Adserving"
+   },
+   "category_adult": {
+      "message": "Voksen"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "Alkohol og tobak"
+   },
+   "category_anonymizers": {
+      "message": "Anonymisering"
+   },
+   "category_auctions": {
+      "message": "Auktioner"
+   },
+   "category_banking": {
+      "message": "Bank"
+   },
+   "category_blogs": {
+      "message": "Blogge"
+   },
+   "category_chat": {
+      "message": "Chat"
+   },
+   "category_dating": {
+      "message": "Dating"
+   },
+   "category_disturbing": {
+      "message": "Forstyrrende"
+   },
+   "category_drugs": {
+      "message": "Stoffer"
+   },
+   "category_entertainment": {
+      "message": "Underholdning"
+   },
+   "category_file_sharing": {
+      "message": "Fildeling"
+   },
+   "category_forums": {
+      "message": "Forummer"
+   },
+   "category_gambling": {
+      "message": "Gambling"
+   },
+   "category_games": {
+      "message": "Spil"
+   },
+   "category_hacking": {
+      "message": "Hacking"
+   },
+   "category_hate": {
+      "message": "Had"
+   },
+   "category_illegal": {
+      "message": "Ulovlig"
+   },
+   "category_illegal_downloads": {
+      "message": "Ulovlige overførsler"
+   },
+   "category_job_search": {
+      "message": "Jobsøgning"
+   },
+   "category_payment_services": {
+      "message": "Betalingstjenester"
+   },
+   "category_scam": {
+      "message": "Svindel"
+   },
+   "category_search_engines": {
+      "message": "Søgemaskiner"
+   },
+   "category_shopping": {
+      "message": "Indkøb"
+   },
+   "category_shopping_and_auctions": {
+      "message": "Indkøb og auktioner"
+   },
+   "category_social_networks": {
+      "message": "Sociale netværk"
+   },
+   "category_software_downloads": {
+      "message": "Softwaredownloads"
+   },
+   "category_spam": {
+      "message": "Spam"
+   },
+   "category_streaming_media": {
+      "message": "Streamingmedie"
+   },
+   "category_travel": {
+      "message": "Rejser"
+   },
+   "category_unknown": {
+      "message": "Ukendt"
+   },
+   "category_violence": {
+      "message": "Vold"
+   },
+   "category_weapons": {
+      "message": "Våben"
+   },
+   "category_webmail": {
+      "message": "Webmail"
+   },
+   "close_btn": {
+      "message": "Luk"
+   },
+   "cookie_blocker_p1": {
+      "message": "Ikke-påkrævede cookies blev automatisk afvist for dette websted."
+   },
+   "error_ca_text_p1": {
+      "message": "Kan ikke oprette forbindelse til program"
+   },
+   "error_ca_text_p2": {
+      "message": "Kontroller din konfiguration"
+   },
+   "ext_description": {
+      "message": "Udvidelse til beskyttelse af krypteret browsing med sikkerhedsprodukter fra F-Secure."
+   },
+   "ext_name": {
+      "message": "Browserbeskyttelse fra F-Secure"
+   },
+   "ext_name_alpha": {
+      "message": "Browserbeskyttelse fra F-Secure (alfa)"
+   },
+   "ext_name_beta": {
+      "message": "Browserbeskyttelse fra F-Secure (beta)"
+   },
+   "ext_name_safari_full": {
+      "message": "Sikker browsing fra F-Secure"
+   },
+   "ext_name_safari_short": {
+      "message": "Sikker browsing"
+   },
+   "ext_onboarding_acccept": {
+      "message": "Accepter"
+   },
+   "ext_onboarding_allow": {
+      "message": "Tillad"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "Opsætning af udvidelse er afsluttet, siden lukkes nu."
+   },
+   "ext_onboarding_decline": {
+      "message": "Afvis"
+   },
+   "ext_onboarding_description": {
+      "message": "Accepter tilladelser?"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "For at forhindre ondsindede websteder i at forårsage dig skade scanner $EXTENSION_NAME$ adresserne på de websteder, du besøger, for at kontrollere, om de er skadelige. Adresserne (URL'er) gøres ikke-identificerbare og håndteres af vores automatiserede Security Cloud i overensstemmelse med vores \u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a>.",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1"
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2"
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "Samtykke kræves for at beskytte din browsing"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "Opsætning af udvidelse blev annulleret, udvidelsen vil nu blive afinstalleret."
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "Politik om beskyttelse af personlige oplysninger"
+   },
+   "ext_open_consent": {
+      "message": "Åbn"
+   },
+   "ext_show_consent_msg": {
+      "message": "Besøg samtykkesiden."
+   },
+   "learn_more": {
+      "message": "Læs mere"
+   },
+   "manage_protection": {
+      "message": "Skift beskedindstillinger"
+   },
+   "open_settings": {
+      "message": "Åbn indstillinger for Beskyttelse mod svindel"
+   },
+   "page_adblock_allowed_count": {
+      "message": "reklamer tilladt på dette websted"
+   },
+   "page_adblock_blocked_count": {
+      "message": "$COUNT$ reklamer blokeret på dette websted",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "Adblocker er slået fra for dette websted"
+   },
+   "page_adblock_feature_on": {
+      "message": "Adblocker er slået til for dette websted"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "Slå den til fra indstillingerne for $PRODUCT_NAME$",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "Adblocker er ikke aktiv"
+   },
+   "page_back": {
+      "message": "Tilbage"
+   },
+   "page_banking": {
+      "message": "Bankwebsted"
+   },
+   "page_blocked": {
+      "message": "Afvist websted"
+   },
+   "page_cancel": {
+      "message": "Annuller"
+   },
+   "page_harmful": {
+      "message": "Skadeligt websted"
+   },
+   "page_next": {
+      "message": "Næste"
+   },
+   "page_not_available": {
+      "message": "Klassificeringsoplysninger er ikke tilgængelige"
+   },
+   "page_prohibited": {
+      "message": "Forbudt websted"
+   },
+   "page_report": {
+      "message": "Rapporter"
+   },
+   "page_report_banking": {
+      "message": "Rapporter den som bank."
+   },
+   "page_report_ext": {
+      "message": "Rapporter dette websted"
+   },
+   "page_report_harmful": {
+      "message": "Rapporter den som skadelig."
+   },
+   "page_report_safe": {
+      "message": "Rapporter den som sikker."
+   },
+   "page_report_suspicious": {
+      "message": "Rapporter den som mistænkelig."
+   },
+   "page_safe": {
+      "message": "Sikkert websted"
+   },
+   "page_success_p1": {
+      "message": "Tak! Vi vil analysere rapporten og justere klassificeringen for dette websted snart."
+   },
+   "page_suggest_category": {
+      "message": "Vælg de kategorier, der gælder for dette websted:"
+   },
+   "page_suggest_rating": {
+      "message": "Foreslå en ny bedømmelse eller kategori:"
+   },
+   "page_suspicious": {
+      "message": "Mistænkeligt websted"
+   },
+   "page_suspicious_p1": {
+      "message": "Beskriv, hvorfor denne side ser mistænkelig ud"
+   },
+   "page_unsafe": {
+      "message": "Usikkert websted "
+   },
+   "page_wrong_cat_1": {
+      "message": "Vælg kategori"
+   },
+   "page_wrong_cat_2": {
+      "message": "Skift kategori for Familieregler"
+   },
+   "page_wrong_rating_1": {
+      "message": "Send os en rapport, hvis du tror, at dette websted er bedømt forkert."
+   },
+   "page_wrong_rating_2": {
+      "message": "Hjælp os ved at sende os en rapport."
+   },
+   "popup_error_description": {
+      "message": "Dit program er blevet afinstalleret, eller du har ikke en kompatibel version. Installer den nyeste version af programmet, og prøv igen."
+   },
+   "popup_error_header": {
+      "message": "Sikkerhedsprogram blev ikke fundet"
+   },
+   "popup_status_init": {
+      "message": "Initialiserer..."
+   },
+   "popup_status_ok": {
+      "message": "Din browser er beskyttet"
+   },
+   "search_rating_allowed": {
+      "message": "En administrator har tilladt dette websted"
+   },
+   "search_rating_banking": {
+      "message": "Dette websted er midlertidigt blokeret for at beskytte dig under dine banksessioner"
+   },
+   "search_rating_category_adult": {
+      "message": "Voksen"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "Alkohol og tobak"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "Anonymisering"
+   },
+   "search_rating_category_dating": {
+      "message": "Dating"
+   },
+   "search_rating_category_disturbing": {
+      "message": "Forstyrrende"
+   },
+   "search_rating_category_drugs": {
+      "message": "Stoffer"
+   },
+   "search_rating_category_gambling": {
+      "message": "Gambling"
+   },
+   "search_rating_category_hate": {
+      "message": "Had"
+   },
+   "search_rating_category_illegal": {
+      "message": "Ulovlig"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "Ulovlige overførsler"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "Indkøb og auktioner"
+   },
+   "search_rating_category_social_networks": {
+      "message": "Sociale netværk"
+   },
+   "search_rating_category_status": {
+      "message": "Dette websted er begrænset af Familieregler"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "Streamingmedie"
+   },
+   "search_rating_category_unknown": {
+      "message": "Ukendt"
+   },
+   "search_rating_category_violence": {
+      "message": "Vold"
+   },
+   "search_rating_category_weapons": {
+      "message": "Våben"
+   },
+   "search_rating_denied": {
+      "message": "En administrator har afvist dette websted"
+   },
+   "search_rating_harmful": {
+      "message": "Dette websted er vurderet som usikkert, du bør ikke browse her."
+   },
+   "search_rating_harmful_p1": {
+      "message": "Dette websted er bedømt som usikkert"
+   },
+   "search_rating_harmful_p2": {
+      "message": "Du bør ikke browse her"
+   },
+   "search_rating_illegal": {
+      "message": "Dette websted er forbudt."
+   },
+   "search_rating_isbank": {
+      "message": "Dette er et pålideligt netbankwebsted."
+   },
+   "search_rating_loading": {
+      "message": "Indlæser..."
+   },
+   "search_rating_restricted": {
+      "message": "Dette websted indeholder begrænset indhold"
+   },
+   "search_rating_safe": {
+      "message": "Dette websted ser sikkert ud."
+   },
+   "search_rating_safe_p1": {
+      "message": "Dette websted er sikkert"
+   },
+   "search_rating_safe_p2": {
+      "message": "Nyd din browsing her"
+   },
+   "search_rating_shopping_caution": {
+      "message": "Dette websted har ikke den bedste bedømmelse"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "Dette shoppingwebsted kan være sikkert, men det får ikke topkarakterer."
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "Dette websted kan være mistænkeligt"
+   },
+   "search_rating_shopping_warn": {
+      "message": "Dette websted er muligvis ikke sikkert"
+   },
+   "search_rating_suspicious": {
+      "message": "Dette websted er mistænkeligt."
+   },
+   "search_rating_suspicious_p1": {
+      "message": "Dette websted er mistænkeligt"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "Vær forsigtig, når du browser"
+   },
+   "search_rating_unknown": {
+      "message": "Denne side er ikke blevet analyseret endnu"
+   },
+   "trusted_shopping_harmful": {
+      "message": "Du har åbnet et shoppingwebsted, der er usikkert."
+   },
+   "trusted_shopping_instructions": {
+      "message": "Du kan ændre denne beskeds synlighed i $PRODUCT_NAME$-indstillinger.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "Baseret på flere anmeldelser og sikkerhedsscorer."
+   },
+   "trusted_shopping_risky": {
+      "message": "Dette websted er muligvis ikke sikkert. Vi råder dig til at være forsigtig, når du besøger det."
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "Det er sikkert at shoppe på dette websted."
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "Dette shoppingwebsted er højt vurderet og pålideligt, nyd din shopping!"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "Der er ikke fuld tillid til dette websted. Vi råder dig til at være forsigtig, når du besøger det."
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "Det tilrådes at være forsigtig, når du handler på dette websted."
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "Dette websted er ikke blevet analyseret endnu."
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "Det tilrådes at være forsigtig, når du handler på dette websted."
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "Det kan være sikkert at shoppe på dette websted, men det får ikke topkarakter i sikkerhed."
+   },
+   "url_not_available": {
+      "message": "Ingen tilgængelig URL"
+   },
+   "website_categories": {
+      "message": "Webstedskategorier"
+   }
+}

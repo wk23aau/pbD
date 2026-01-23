@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "Để bảo vệ các giao dịch của bạn, $PRODUCT_NAME$ đã chặn trang web này trong suốt phiên Bảo vệ Ngân hàng.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "Bị chặn bởi Bảo vệ Ngân hàng"
+   },
+   "block_malicious_content": {
+      "message": "$PRODUCT_NAME$ đã phát hiện nội dung độc hại trên trang web này và chặn nội dung đó.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "Đã chặn nội dung độc hại."
+   },
+   "blockpage_banking_allow": {
+      "message": "Cho phép trang web này nếu bạn cần truy cập vào để hoàn tất giao dịch."
+   },
+   "blockpage_banking_description": {
+      "message": "Trang web này bị chặn tạm thời để ngăn bạn vô tình tiết lộ thông tin trong khi đang mở một trang web ngân hàng."
+   },
+   "blockpage_banking_heading": {
+      "message": "Đóng mọi tab ngân hàng để truy cập trang web này."
+   },
+   "blockpage_banking_title": {
+      "message": "Bảo vệ Ngân hàng"
+   },
+   "blockpage_blocked": {
+      "message": "Trang web bị từ chối"
+   },
+   "blockpage_child_allow": {
+      "message": "Cho phép trang web này"
+   },
+   "blockpage_child_description": {
+      "message": "Bạn chỉ có thể truy cập vào những trang web sau:"
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "Chưa có trang web được phép nào."
+   },
+   "blockpage_child_heading": {
+      "message": "Trang web bị từ chối"
+   },
+   "blockpage_child_note": {
+      "message": "Bạn cũng có thể thực hiện các thay đổi đối với"
+   },
+   "blockpage_child_note_link": {
+      "message": "các trang web được cho phép và bị từ chối"
+   },
+   "blockpage_child_title": {
+      "message": "Trang web bị từ chối"
+   },
+   "blockpage_denied_allow": {
+      "message": "Cho phép trang web trên máy tính này"
+   },
+   "blockpage_denied_description": {
+      "message": "Người quản lý tài khoản $PRODUCT_NAME$ đã chặn quyền truy cập vào trang web này. Bạn cần quyền của họ để tiếp tục.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "Đã chặn trang web"
+   },
+   "blockpage_denied_title": {
+      "message": "Đã chặn trang web"
+   },
+   "blockpage_harmful_allow": {
+      "message": "Cho phép trang web trên máy tính này"
+   },
+   "blockpage_harmful_description": {
+      "message": "$PRODUCT_NAME$ đã liệt kê trang web này là độc hại. Chúng tôi khuyên bạn không nên truy cập vào trang web này.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "Bạn không nên lướt web tại đây"
+   },
+   "blockpage_harmful_report": {
+      "message": "Báo cáo trang web bị cảnh báo nhầm"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "Không nghĩ nội dung này là độc hại?"
+   },
+   "blockpage_harmful_title": {
+      "message": "Đã chặn trang web độc hại"
+   },
+   "blockpage_illegal_allow": {
+      "message": "Truy cập bằng mọi cách"
+   },
+   "blockpage_illegal_description": {
+      "message": "$PRODUCT_NAME$ đã báo cáo trang web này chứa nội dung bị cấm. Chúng tôi đặc biệt khuyên bạn không nên truy cập vào trang web này.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "Trang web bị nghiêm cấm"
+   },
+   "blockpage_illegal_report": {
+      "message": "Báo cáo trang web bị cảnh báo nhầm"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "Không nghĩ nội dung này là độc hại?"
+   },
+   "blockpage_illegal_title": {
+      "message": "Đã chặn trang web bị nghiêm cấm"
+   },
+   "blockpage_parental_allow": {
+      "message": "Cho phép trang web trên máy tính này"
+   },
+   "blockpage_parental_description": {
+      "message": "$PRODUCT_NAME$ đã chặn nội dung này do sản phẩm đó đã bị giới hạn trong danh mục: ",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "Đã chặn trang web"
+   },
+   "blockpage_parental_report": {
+      "message": "Báo cáo trang web cảnh báo nhầm"
+   },
+   "blockpage_parental_title": {
+      "message": "Đã chặn trang web"
+   },
+   "blockpage_suspicious_allow": {
+      "message": "Truy cập bằng mọi cách"
+   },
+   "blockpage_suspicious_description": {
+      "message": "$PRODUCT_NAME$ đã liệt kê trang web này là khả nghi. Chúng tôi khuyên bạn không nên truy cập vào trang web này.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "Bạn không nên lướt web tại đây"
+   },
+   "blockpage_suspicious_report": {
+      "message": "Báo cáo trang web bị cảnh báo nhầm"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "Không nghĩ nội dung này là độc hại?"
+   },
+   "blockpage_suspicious_title": {
+      "message": "Đã chặn trang web khả nghi"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "Trang web mua sắm này có vài cảnh báo đỏ. Rất có thể đây là một trang web lừa đảo!"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "Bạn không nên lướt web tại đây"
+   },
+   "category_abortion": {
+      "message": "Phá thai"
+   },
+   "category_adserving": {
+      "message": "Phân phối quảng cáo"
+   },
+   "category_adult": {
+      "message": "Người lớn"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "Rượu và thuốc lá"
+   },
+   "category_anonymizers": {
+      "message": "Người ẩn danh"
+   },
+   "category_auctions": {
+      "message": "Đấu giá"
+   },
+   "category_banking": {
+      "message": "Ngân hàng"
+   },
+   "category_blogs": {
+      "message": "Blog"
+   },
+   "category_chat": {
+      "message": "Trò chuyện"
+   },
+   "category_dating": {
+      "message": "Hẹn hò"
+   },
+   "category_disturbing": {
+      "message": "Làm phiền"
+   },
+   "category_drugs": {
+      "message": "Ma túy"
+   },
+   "category_entertainment": {
+      "message": "Giải trí"
+   },
+   "category_file_sharing": {
+      "message": "Chia sẻ tệp"
+   },
+   "category_forums": {
+      "message": "Diễn đàn"
+   },
+   "category_gambling": {
+      "message": "Cờ bạc"
+   },
+   "category_games": {
+      "message": "Trò chơi"
+   },
+   "category_hacking": {
+      "message": "Tấn công"
+   },
+   "category_hate": {
+      "message": "Hận thù"
+   },
+   "category_illegal": {
+      "message": "Bất hợp pháp"
+   },
+   "category_illegal_downloads": {
+      "message": "Tải xuống bất hợp pháp"
+   },
+   "category_job_search": {
+      "message": "Tìm việc làm"
+   },
+   "category_payment_services": {
+      "message": "Dịch vụ thanh toán"
+   },
+   "category_scam": {
+      "message": "Gian lận"
+   },
+   "category_search_engines": {
+      "message": "Công cụ tìm kiếm"
+   },
+   "category_shopping": {
+      "message": "Mua sắm"
+   },
+   "category_shopping_and_auctions": {
+      "message": "Mua sắm và đấu giá"
+   },
+   "category_social_networks": {
+      "message": "Mạng xã hội"
+   },
+   "category_software_downloads": {
+      "message": "Tải xuống phần mềm"
+   },
+   "category_spam": {
+      "message": "Spam"
+   },
+   "category_streaming_media": {
+      "message": "Phương tiện truyền phát"
+   },
+   "category_travel": {
+      "message": "Du lịch"
+   },
+   "category_unknown": {
+      "message": "Không xác định"
+   },
+   "category_violence": {
+      "message": "Bạo lực"
+   },
+   "category_weapons": {
+      "message": "Vũ khí"
+   },
+   "category_webmail": {
+      "message": "Thư trên nền web"
+   },
+   "close_btn": {
+      "message": "Đóng"
+   },
+   "cookie_blocker_p1": {
+      "message": "Các cookie không thiết yếu tự động bị từ chối cho trang web này."
+   },
+   "error_ca_text_p1": {
+      "message": "Không thể kết nối với ứng dụng"
+   },
+   "error_ca_text_p2": {
+      "message": "Kiểm tra cấu hình của bạn"
+   },
+   "ext_description": {
+      "message": "Tiện ích mở rộng để bảo vệ hoạt động duyệt web được mã hóa với các sản phẩm bảo mật của F-Secure."
+   },
+   "ext_name": {
+      "message": "Bảo vệ Duyệt web của F-Secure"
+   },
+   "ext_name_alpha": {
+      "message": "Bảo vệ Duyệt web của F-Secure (alpha)"
+   },
+   "ext_name_beta": {
+      "message": "Bảo vệ Duyệt web của F-Secure (beta)"
+   },
+   "ext_name_safari_full": {
+      "message": "Duyệt web An toàn của F-Secure"
+   },
+   "ext_name_safari_short": {
+      "message": "Duyệt web An toàn"
+   },
+   "ext_onboarding_acccept": {
+      "message": "Chấp nhận"
+   },
+   "ext_onboarding_allow": {
+      "message": "Cho phép"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "Đã hoàn tất quá trình thiết lập phần mở rộng, trang sẽ được đóng ngay bây giờ."
+   },
+   "ext_onboarding_decline": {
+      "message": "Từ chối"
+   },
+   "ext_onboarding_description": {
+      "message": "Chấp nhận quyền?"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "Để ngăn chặn các trang web độc hại gây hại cho bạn, $EXTENSION_NAME$ sẽ quét địa chỉ các trang web bạn truy cập để kiểm tra xem chúng có gây hại hay không. Các địa chỉ (URL) được tạo sao cho không nhận dạng được và được xử lý bởi Security Cloud được tự động hóa của chúng tôi phù hợp với \u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a> của chúng tôi.",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1"
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2"
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "Cần có sự đồng ý để bảo vệ hoạt động duyệt web của bạn"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "Thiết lập phần mở rộng đã bị hủy, phần mở rộng sẽ bị gỡ cài đặt ngay bây giờ."
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "Chính sách Bảo mật"
+   },
+   "ext_open_consent": {
+      "message": "Mở"
+   },
+   "ext_show_consent_msg": {
+      "message": "Vui lòng truy cập trang web thỏa thuận."
+   },
+   "learn_more": {
+      "message": "Tìm hiểu thêm"
+   },
+   "manage_protection": {
+      "message": "Thay đổi cài đặt thông báo"
+   },
+   "open_settings": {
+      "message": "Mở cài đặt Bảo vệ chống lừa đảo"
+   },
+   "page_adblock_allowed_count": {
+      "message": "quảng cáo được cho phép trên trang web này"
+   },
+   "page_adblock_blocked_count": {
+      "message": "Đã chặn $COUNT$ quảng cáo trên trang web này",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "Trình chặn quảng cáo đã bị tắt cho trang web này"
+   },
+   "page_adblock_feature_on": {
+      "message": "Trình chặn quảng cáo đã được bật cho trang web này"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "Bật trình chặn quảng cáo trong phần cài đặt $PRODUCT_NAME$",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "Trình chặn quảng cáo không hoạt động"
+   },
+   "page_back": {
+      "message": "\u003C Trở lại"
+   },
+   "page_banking": {
+      "message": "Trang web ngân hàng"
+   },
+   "page_blocked": {
+      "message": "Trang web bị từ chối"
+   },
+   "page_cancel": {
+      "message": "Huỷ"
+   },
+   "page_harmful": {
+      "message": "Trang web độc hại"
+   },
+   "page_next": {
+      "message": "Tiếp theo"
+   },
+   "page_not_available": {
+      "message": "Không có sẵn thông tin xếp hạng"
+   },
+   "page_prohibited": {
+      "message": "Trang web bị nghiêm cấm"
+   },
+   "page_report": {
+      "message": "Báo cáo"
+   },
+   "page_report_banking": {
+      "message": "Báo cáo là ngân hàng"
+   },
+   "page_report_ext": {
+      "message": "Báo cáo trang web này"
+   },
+   "page_report_harmful": {
+      "message": "Báo cáo là độc hại"
+   },
+   "page_report_safe": {
+      "message": "Báo cáo là an toàn"
+   },
+   "page_report_suspicious": {
+      "message": "Báo cáo là khả nghi"
+   },
+   "page_safe": {
+      "message": "Trang web an toàn"
+   },
+   "page_success_p1": {
+      "message": "Cảm ơn bạn! Chúng tôi sẽ phân tích báo cáo và sớm điều chỉnh xếp hạng cho trang web này."
+   },
+   "page_suggest_category": {
+      "message": "Chọn danh mục áp dụng cho trang web sau:"
+   },
+   "page_suggest_rating": {
+      "message": "Đề xuất xếp hạng hoặc danh mục mới:"
+   },
+   "page_suspicious": {
+      "message": "Trang web khả nghi"
+   },
+   "page_suspicious_p1": {
+      "message": "Mô tả lý do trang này có vẻ đáng ngờ"
+   },
+   "page_unsafe": {
+      "message": "Trang web không an toàn"
+   },
+   "page_wrong_cat_1": {
+      "message": "Chọn danh mục"
+   },
+   "page_wrong_cat_2": {
+      "message": "Thay đổi danh mục Quy định trong Gia đình"
+   },
+   "page_wrong_rating_1": {
+      "message": "Gửi báo cáo cho chúng tôi nếu bạn cho rằng trang web này được xếp hạng không chính xác."
+   },
+   "page_wrong_rating_2": {
+      "message": "Giúp chúng tôi bằng cách gửi báo cáo."
+   },
+   "popup_error_description": {
+      "message": "Ứng dụng của bạn đã được gỡ cài đặt hoặc bạn không có phiên bản tương thích. Hãy cài đặt phiên bản mới nhất của ứng dụng rồi thử lại."
+   },
+   "popup_error_header": {
+      "message": "Không tìm thấy ứng dụng bảo mật"
+   },
+   "popup_status_init": {
+      "message": "Đang khởi chạy..."
+   },
+   "popup_status_ok": {
+      "message": "Trình duyệt của bạn đã được bảo vệ"
+   },
+   "search_rating_allowed": {
+      "message": "Trang web này đã được quản trị viên cho phép"
+   },
+   "search_rating_banking": {
+      "message": "Trang web tạm thời bị chặn để bảo vệ bạn trong phiên giao dịch ngân hàng"
+   },
+   "search_rating_category_adult": {
+      "message": "Người lớn"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "Rượu và thuốc lá"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "Người ẩn danh"
+   },
+   "search_rating_category_dating": {
+      "message": "Hẹn hò"
+   },
+   "search_rating_category_disturbing": {
+      "message": "Làm phiền"
+   },
+   "search_rating_category_drugs": {
+      "message": "Ma túy"
+   },
+   "search_rating_category_gambling": {
+      "message": "Cờ bạc"
+   },
+   "search_rating_category_hate": {
+      "message": "Hận thù"
+   },
+   "search_rating_category_illegal": {
+      "message": "Bất hợp pháp"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "Tải xuống bất hợp pháp"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "Mua sắm và Đấu giá"
+   },
+   "search_rating_category_social_networks": {
+      "message": "Mạng xã hội"
+   },
+   "search_rating_category_status": {
+      "message": "Trang web này đã bị giới hạn bởi Quy định trong Gia đình"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "Phương tiện truyền phát"
+   },
+   "search_rating_category_unknown": {
+      "message": "Không xác định"
+   },
+   "search_rating_category_violence": {
+      "message": "Bạo lực"
+   },
+   "search_rating_category_weapons": {
+      "message": "Vũ khí"
+   },
+   "search_rating_denied": {
+      "message": "Trang web này đã bị quản trị viên từ chối"
+   },
+   "search_rating_harmful": {
+      "message": "Trang web này được đánh giá là không an toàn, bạn không nên duyệt web tại đây."
+   },
+   "search_rating_harmful_p1": {
+      "message": "Trang web này được đánh giá là không an toàn"
+   },
+   "search_rating_harmful_p2": {
+      "message": "Bạn không nên duyệt web ở đây"
+   },
+   "search_rating_illegal": {
+      "message": "Trang web này bị cấm."
+   },
+   "search_rating_isbank": {
+      "message": "Đây là trang web ngân hàng đáng tin cậy."
+   },
+   "search_rating_loading": {
+      "message": "Đang tải..."
+   },
+   "search_rating_restricted": {
+      "message": "Trang web này chứa nội dung bị hạn chế"
+   },
+   "search_rating_safe": {
+      "message": "Trang web này có vẻ an toàn."
+   },
+   "search_rating_safe_p1": {
+      "message": "Trang web này an toàn"
+   },
+   "search_rating_safe_p2": {
+      "message": "Có một thời gian tuyệt vời khi duyệt web tại đây"
+   },
+   "search_rating_shopping_caution": {
+      "message": "Trang web này không được xếp hạng cao nhất"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "Trang web mua sắm này có thể an toàn, nhưng trang web đó không nhận được điểm số đầy đủ."
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "Trang web này có thể khả nghi"
+   },
+   "search_rating_shopping_warn": {
+      "message": "Trang web này có thể không an toàn"
+   },
+   "search_rating_suspicious": {
+      "message": "Trang web này khả nghi."
+   },
+   "search_rating_suspicious_p1": {
+      "message": "Trang web này đáng ngờ"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "Hãy cẩn thận khi duyệt web"
+   },
+   "search_rating_unknown": {
+      "message": "Trang web này vẫn chưa được phân tích."
+   },
+   "trusted_shopping_harmful": {
+      "message": "Bạn đã mở một trang web mua sắm an toàn không an toàn."
+   },
+   "trusted_shopping_instructions": {
+      "message": "Thay đổi khả năng hiển thị thông báo này trong cài đặt $PRODUCT_NAME$.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "Dựa trên nhiều đánh giá và điểm số bảo mật."
+   },
+   "trusted_shopping_risky": {
+      "message": "Trang web này có thể không an toàn. Bạn nên thận trọng khi duyệt web ở đây."
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "Việc mua sắm trên trang web này là an toàn."
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "Trang web mua sắm này được đánh giá cao và đáng tin cậy, hãy tận hưởng phiên mua sắm của bạn!"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "Trang web này không được tin tưởng đầy đủ. Bạn nên thận trọng khi duyệt web ở đây."
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "Thận trọng khi mua sắm trên trang web này."
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "Trang web này vẫn chưa được phân tích."
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "Thận trọng khi mua sắm trên trang web này."
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "Việc mua sắm trên trang web này có thể an toàn nhưng trang web đó không nhận được điểm số an toàn đầy đủ."
+   },
+   "url_not_available": {
+      "message": "Không có sẵn URL"
+   },
+   "website_categories": {
+      "message": "Danh mục trang web"
+   }
+}

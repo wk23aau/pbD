@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "U svrhu zaštite vaših transakcija, alat $PRODUCT_NAME$ blokirao je ovo web-mjesto tijekom vaše sesije za zaštitu bankarstva.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "Blokirano putem zaštite bankarstva"
+   },
+   "block_malicious_content": {
+      "message": "Proizvod $PRODUCT_NAME$ otkrio je i blokirao zlonamjerni sadržaj na ovoj stranici.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "Blokiran je zlonamjerni sadržaj."
+   },
+   "blockpage_banking_allow": {
+      "message": "Dopustite ovo web-mjesto ako mu trebate pristupiti za dovršavanje svojih transakcija."
+   },
+   "blockpage_banking_description": {
+      "message": "Ovo web-mjesto privremeno je blokirano s ciljem sprječavanja nehotičnog izlaganja vaših podataka dok je otvoreno web-mjesto za bankarstvo."
+   },
+   "blockpage_banking_heading": {
+      "message": "Zatvorite sve kartice bankarstva da biste pristupili ovom web-mjestu."
+   },
+   "blockpage_banking_title": {
+      "message": "Zaštita bankarstva"
+   },
+   "blockpage_blocked": {
+      "message": "Web-mjesto je zabranjeno"
+   },
+   "blockpage_child_allow": {
+      "message": "Dopusti ovo web-mjesto"
+   },
+   "blockpage_child_description": {
+      "message": "Možete pristupiti samo ovom web-mjestima:"
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "Još nema dopuštenih web-mjesta"
+   },
+   "blockpage_child_heading": {
+      "message": "Web-mjesto je zabranjeno"
+   },
+   "blockpage_child_note": {
+      "message": "Možete promijeniti i"
+   },
+   "blockpage_child_note_link": {
+      "message": "dopuštena i zabranjena web-mjesta"
+   },
+   "blockpage_child_title": {
+      "message": "Web-mjesto je zabranjeno"
+   },
+   "blockpage_denied_allow": {
+      "message": "Dopusti web-mjesto na ovom računalu"
+   },
+   "blockpage_denied_description": {
+      "message": "Upravitelj računa za proizvod $PRODUCT_NAME$ blokirao je pristup ovom web-mjestu. Da biste nastavili, potrebna vam je dozvola.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "Web-mjesto je blokirano"
+   },
+   "blockpage_denied_title": {
+      "message": "Web-mjesto je blokirano"
+   },
+   "blockpage_harmful_allow": {
+      "message": "Dopusti web-mjesto na ovom računalu"
+   },
+   "blockpage_harmful_description": {
+      "message": "$PRODUCT_NAME$ naveo je to web-mjesto kao štetno. Preporučujemo da ne otvarate to web-mjesto.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "Ne biste trebali otvarati to web-mjesto"
+   },
+   "blockpage_harmful_report": {
+      "message": "Ovdje prijavi lažno pozitivnu vrijednost"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "Ne mislite da je štetno?"
+   },
+   "blockpage_harmful_title": {
+      "message": "Štetno web-mjesto je blokirano"
+   },
+   "blockpage_illegal_allow": {
+      "message": "Ipak pristupi"
+   },
+   "blockpage_illegal_description": {
+      "message": "Proizvod $PRODUCT_NAME$ prijavio je da ovo web-mjesto sadrži zabranjeni sadržaj. Preporučujemo vam da ne otvarate ovo web-mjesto.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "Zabranjeno web-mjesto"
+   },
+   "blockpage_illegal_report": {
+      "message": "Ovdje prijavi lažno pozitivnu vrijednost"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "Ne mislite da je štetno?"
+   },
+   "blockpage_illegal_title": {
+      "message": "Zabranjeno web-mjesto je blokirano"
+   },
+   "blockpage_parental_allow": {
+      "message": "Dopusti web-mjesto na ovom računalu"
+   },
+   "blockpage_parental_description": {
+      "message": "Proizvod $PRODUCT_NAME$ blokirao je ovaj sadržaj jer je ograničen u kategoriji:",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "Web-mjesto je blokirano"
+   },
+   "blockpage_parental_report": {
+      "message": "Prijavite lažno pozitivno web-mjesto"
+   },
+   "blockpage_parental_title": {
+      "message": "Web-mjesto je blokirano"
+   },
+   "blockpage_suspicious_allow": {
+      "message": "Ipak pristupi"
+   },
+   "blockpage_suspicious_description": {
+      "message": "$PRODUCT_NAME$ naveo je to web-mjesto kao sumnjivo. Preporučujemo da ne otvarate to web-mjesto.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "Ne biste trebali otvarati to web-mjesto"
+   },
+   "blockpage_suspicious_report": {
+      "message": "Ovdje prijavi lažno pozitivnu vrijednost"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "Ne mislite da je štetno?"
+   },
+   "blockpage_suspicious_title": {
+      "message": "Sumnjivo web-mjesto je blokirano"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "Za ovo web-mjesto za kupnju dostupno je nekoliko upozorenja. Vjerojatno se radi o zlonamjernom web-mjestu!"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "Ne biste trebali otvarati to web-mjesto"
+   },
+   "category_abortion": {
+      "message": "Pobačaj"
+   },
+   "category_adserving": {
+      "message": "Prikaz oglasa"
+   },
+   "category_adult": {
+      "message": "Sadržaj za odrasle"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "Alkohol i duhan"
+   },
+   "category_anonymizers": {
+      "message": "Anonimizatori"
+   },
+   "category_auctions": {
+      "message": "Dražbe"
+   },
+   "category_banking": {
+      "message": "Bankovne usluge"
+   },
+   "category_blogs": {
+      "message": "Blogovi"
+   },
+   "category_chat": {
+      "message": "Čavrljanje"
+   },
+   "category_dating": {
+      "message": "Upoznavanje"
+   },
+   "category_disturbing": {
+      "message": "Uznemirujuće"
+   },
+   "category_drugs": {
+      "message": "Droga"
+   },
+   "category_entertainment": {
+      "message": "Zabava"
+   },
+   "category_file_sharing": {
+      "message": "Dijeljenje datoteka"
+   },
+   "category_forums": {
+      "message": "Forumi"
+   },
+   "category_gambling": {
+      "message": "Kockanje"
+   },
+   "category_games": {
+      "message": "Igre"
+   },
+   "category_hacking": {
+      "message": "Hakiranje"
+   },
+   "category_hate": {
+      "message": "Mržnja"
+   },
+   "category_illegal": {
+      "message": "Nezakonito"
+   },
+   "category_illegal_downloads": {
+      "message": "Nezakonita preuzimanja"
+   },
+   "category_job_search": {
+      "message": "Potraga za poslom"
+   },
+   "category_payment_services": {
+      "message": "Usluge plaćanja"
+   },
+   "category_scam": {
+      "message": "Prevare"
+   },
+   "category_search_engines": {
+      "message": "Tražilice"
+   },
+   "category_shopping": {
+      "message": "Kupovina"
+   },
+   "category_shopping_and_auctions": {
+      "message": "Kupovanje i dražbe"
+   },
+   "category_social_networks": {
+      "message": "Društvene mreže"
+   },
+   "category_software_downloads": {
+      "message": "Preuzimanja softvera"
+   },
+   "category_spam": {
+      "message": "Neželjeni sadržaj"
+   },
+   "category_streaming_media": {
+      "message": "Medijski sadržaji za strujanje"
+   },
+   "category_travel": {
+      "message": "Putovanja"
+   },
+   "category_unknown": {
+      "message": "Nepoznato"
+   },
+   "category_violence": {
+      "message": "Nasilje"
+   },
+   "category_weapons": {
+      "message": "Oružje"
+   },
+   "category_webmail": {
+      "message": "Web-pošta"
+   },
+   "close_btn": {
+      "message": "Zatvori"
+   },
+   "cookie_blocker_p1": {
+      "message": "Za ovo web-mjesto automatski se odbijaju neobavezni kolačići."
+   },
+   "error_ca_text_p1": {
+      "message": "Nije moguće povezivanje s aplikacijom"
+   },
+   "error_ca_text_p2": {
+      "message": "Provjerite svoju konfiguraciju"
+   },
+   "ext_description": {
+      "message": "Proširenje za zaštitu šifriranog pregledavanja pomoću sigurnosnih proizvoda tvrtke F-Secure."
+   },
+   "ext_name": {
+      "message": "Zaštita pregledavanja tvrtke F-Secure"
+   },
+   "ext_name_alpha": {
+      "message": "Zaštita pregledavanja tvrtke F-Secure (alfa)"
+   },
+   "ext_name_beta": {
+      "message": "Zaštita pregledavanja tvrtke F-Secure (beta)"
+   },
+   "ext_name_safari_full": {
+      "message": "Sigurno pretraživanje uz F-Secure"
+   },
+   "ext_name_safari_short": {
+      "message": "Sigurno pregledavanje"
+   },
+   "ext_onboarding_acccept": {
+      "message": "Prihvati"
+   },
+   "ext_onboarding_allow": {
+      "message": "Dopusti"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "Dovršeno je postavljanje proširenja. Stranica će se sada zatvoriti."
+   },
+   "ext_onboarding_decline": {
+      "message": "Odbij"
+   },
+   "ext_onboarding_description": {
+      "message": "Prihvatiti dopuštenja?"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "Kako bi se spriječila šteta koju uzrokuju zlonamjerna web-mjesta, $EXTENSION_NAME$ pregledava adrese web-mjesta koja posjećujete kako bi se utvrdilo jesu li štetna. Iz adresa (URL-ova) uklanjaju se podaci putem kojih je moguća identifikacija i njima upravlja naš automatizirani sustav Security Cloud u skladu s našim pravilima privatnosti \u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a>.",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1"
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2"
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "Potrebna je suglasnost za zaštitu vašeg pregledavanja"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "Otkazano je postavljanje proširenja. Proširenje će se sada deinstalirati."
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "Pravila o privatnosti"
+   },
+   "ext_open_consent": {
+      "message": "Otvori"
+   },
+   "ext_show_consent_msg": {
+      "message": "Posjetite stranicu za suglasnost."
+   },
+   "learn_more": {
+      "message": "Saznajte više"
+   },
+   "manage_protection": {
+      "message": "Promjena postavki za obavijesti"
+   },
+   "open_settings": {
+      "message": "Otvorite postavke zaštite od prijevare"
+   },
+   "page_adblock_allowed_count": {
+      "message": "reklame dozvoljene na ovom web-mjestu"
+   },
+   "page_adblock_blocked_count": {
+      "message": "Blokiran je sljedeći broj oglasa na ovom web-mjestu: $COUNT$",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "Program za uklanjanje reklama isključen je za ovo web-mjesto"
+   },
+   "page_adblock_feature_on": {
+      "message": "Program za uklanjanje reklama uključen je za ovo web-mjesto"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "Uključite ga u postavkama proizvoda $PRODUCT_NAME$",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "Program za uklanjanje reklama nije aktivan"
+   },
+   "page_back": {
+      "message": "Natrag"
+   },
+   "page_banking": {
+      "message": "Web-mjesto za bankarenje"
+   },
+   "page_blocked": {
+      "message": "Web-mjesto je zabranjeno"
+   },
+   "page_cancel": {
+      "message": "Odustani"
+   },
+   "page_harmful": {
+      "message": "Štetno web-mjesto"
+   },
+   "page_next": {
+      "message": "Sljedeće"
+   },
+   "page_not_available": {
+      "message": "Informacije o ocjenjivanju nisu dostupne"
+   },
+   "page_prohibited": {
+      "message": "Zabranjeno web-mjesto"
+   },
+   "page_report": {
+      "message": "Prijavi"
+   },
+   "page_report_banking": {
+      "message": "Prijavite kao bankarstvo."
+   },
+   "page_report_ext": {
+      "message": "Prijavi ovo web-mjesto"
+   },
+   "page_report_harmful": {
+      "message": "Prijavite kao štetno."
+   },
+   "page_report_safe": {
+      "message": "Prijavite kao sigurno."
+   },
+   "page_report_suspicious": {
+      "message": "Prijavite kao sumnjivo."
+   },
+   "page_safe": {
+      "message": "Sigurno web-mjesto"
+   },
+   "page_success_p1": {
+      "message": "Hvala! Uskoro ćemo analizirati izvješće i prilagoditi ocjenu za ovo web-mjesto."
+   },
+   "page_suggest_category": {
+      "message": "Odaberite kategorije koje se primjenjuju na ovo web-mjesto:"
+   },
+   "page_suggest_rating": {
+      "message": "Predložite novu ocjenu ili kategoriju:"
+   },
+   "page_suspicious": {
+      "message": "Sumnjivo web-mjesto"
+   },
+   "page_suspicious_p1": {
+      "message": "Opišite zašto se ova stranica čini sumnjivom"
+   },
+   "page_unsafe": {
+      "message": "Nesigurno web-mjesto"
+   },
+   "page_wrong_cat_1": {
+      "message": "Odaberi kategoriju"
+   },
+   "page_wrong_cat_2": {
+      "message": "Promijeni kategoriju značajke Pravila za obitelj"
+   },
+   "page_wrong_rating_1": {
+      "message": "Pošaljite nam izvješće ako smatrate da ovo web-mjesto nije ispravno ocijenjeno."
+   },
+   "page_wrong_rating_2": {
+      "message": "Pomozite nam slanjem izvješća"
+   },
+   "popup_error_description": {
+      "message": "Vaša je aplikacija deinstalirana ili nemate kompatibilnu verziju. Instalirajte najnoviju verziju aplikacije i pokušajte ponovno."
+   },
+   "popup_error_header": {
+      "message": "Sigurnosna aplikacija nije pronađena"
+   },
+   "popup_status_init": {
+      "message": "Inicijalizacija..."
+   },
+   "popup_status_ok": {
+      "message": "Vaš je preglednik zaštićen"
+   },
+   "search_rating_allowed": {
+      "message": "Web-mjesto je dopustio administrator"
+   },
+   "search_rating_banking": {
+      "message": "Ovo je web-mjesto privremeno blokirano kako biste bili zaštićeni tijekom bankarskih sesija"
+   },
+   "search_rating_category_adult": {
+      "message": "Sadržaj za odrasle"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "Alkohol i duhan"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "Anonimizatori"
+   },
+   "search_rating_category_dating": {
+      "message": "Upoznavanje"
+   },
+   "search_rating_category_disturbing": {
+      "message": "Uznemirujuće"
+   },
+   "search_rating_category_drugs": {
+      "message": "Droga"
+   },
+   "search_rating_category_gambling": {
+      "message": "Kockanje"
+   },
+   "search_rating_category_hate": {
+      "message": "Mržnja"
+   },
+   "search_rating_category_illegal": {
+      "message": "Nezakonito"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "Nezakonita preuzimanja"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "Kupovina i dražbe"
+   },
+   "search_rating_category_social_networks": {
+      "message": "Društvene mreže"
+   },
+   "search_rating_category_status": {
+      "message": "Ovo je web-mjesto ograničila značajka Pravila za obitelj"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "Medijski sadržaji za strujanje"
+   },
+   "search_rating_category_unknown": {
+      "message": "Nepoznato"
+   },
+   "search_rating_category_violence": {
+      "message": "Nasilje"
+   },
+   "search_rating_category_weapons": {
+      "message": "Oružje"
+   },
+   "search_rating_denied": {
+      "message": "Web-mjesto je zabranio administrator"
+   },
+   "search_rating_harmful": {
+      "message": "Ovo web-mjesto ocijenjeno je kao nesigurno, ne biste ga trebali pregledavati."
+   },
+   "search_rating_harmful_p1": {
+      "message": "Ovo web-mjesto ocijenjeno je kao nesigurno"
+   },
+   "search_rating_harmful_p2": {
+      "message": "Ne smijete pregledavati ovdje"
+   },
+   "search_rating_illegal": {
+      "message": "Ovo je web-mjesto zabranjeno."
+   },
+   "search_rating_isbank": {
+      "message": "Ovo je pouzdano web-mjesto za bankarstvo na mreži."
+   },
+   "search_rating_loading": {
+      "message": "Učitavanje..."
+   },
+   "search_rating_restricted": {
+      "message": "Ovo web-mjesto sadrži ograničeni sadržaj"
+   },
+   "search_rating_safe": {
+      "message": "Ovo web-mjesto izgleda sigurno."
+   },
+   "search_rating_safe_p1": {
+      "message": "Ovo je web-mjesto sigurno"
+   },
+   "search_rating_safe_p2": {
+      "message": "Želimo vam dobru zabavu pri pregledavanju"
+   },
+   "search_rating_shopping_caution": {
+      "message": "Ovo web-mjesto nema najvišu ocjenu"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "Ova je stranica za kupovinu možda sigurna, ali nema najvišu ocjenu sigurnosti."
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "Ovo web-mjesto možda je sumnjivo"
+   },
+   "search_rating_shopping_warn": {
+      "message": "Ovo web-mjesto možda nije sigurno"
+   },
+   "search_rating_suspicious": {
+      "message": "Ovo je web-mjesto sumnjivo."
+   },
+   "search_rating_suspicious_p1": {
+      "message": "Ovo je web-mjesto sumnjivo"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "Budite oprezni tijekom pregledavanja"
+   },
+   "search_rating_unknown": {
+      "message": "Ovo web-mjesto još nije analizirano."
+   },
+   "trusted_shopping_harmful": {
+      "message": "Otvorili ste web-mjesto za kupovinu koje nije sigurno."
+   },
+   "trusted_shopping_instructions": {
+      "message": "Promijenite vidljivost ove obavijesti u postavkama za $PRODUCT_NAME$.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "Na temelju više recenzija i ocjena sigurnosti."
+   },
+   "trusted_shopping_risky": {
+      "message": "Ovo web-mjesto možda nije sigurno. Budite oprezni prilikom pregledavanja."
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "Kupovina na ovom web-mjestu je sigurna."
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "Ova je web-trgovina visoko ocijenjena i smatra se izuzetno pouzdanom. Uživajte u kupovini!"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "Ovo web-mjesto nije sasvim pouzdano. ."
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "Budite oprezni prilikom kupovine na ovoj stranici."
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "Ovo web-mjesto još nije analizirano."
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "Budite oprezni prilikom kupovine na ovoj stranici."
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "Kupovina je na ovom web-mjestu možda sigurna, ali nema najvišu ocjenu sigurnosti."
+   },
+   "url_not_available": {
+      "message": "Nema dostupnih URL-ova"
+   },
+   "website_categories": {
+      "message": "Kategorije web-mjesta"
+   }
+}

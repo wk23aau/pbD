@@ -1,0 +1,116 @@
+:root {
+    --fs-balloon-height: 128px;
+    --fs-bg-color: rgba(255, 255, 255, 1);
+    --fs-font-color: rgba(22, 22, 22, 1);
+    --fs-border-color: rgba(206, 206, 206, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fs-bg-color: rgba(28, 28, 30, 1);
+        --fs-font-color: rgba(255, 255, 255, 1);
+        --fs-border-color: rgba(58, 58, 60, 1);
+    }
+}
+
+.fs-bubble-info {
+    position: relative !important;
+    display: inline !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 0 3px 0 0 !important;
+}
+
+.fs-bubble-info img {
+    border: 0 none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.fs-bubble-info.fs-bing img {
+    vertical-align: -1px !important;
+}
+
+.fs-bubble-info.fs-yahoo img {
+    vertical-align: 0px !important;
+}
+
+.fs-bubble-info.fs-yahoo-jp img {
+    vertical-align: -5px !important;
+}
+
+
+.fs-rating-summary-rating-icon {
+    height: 20px;
+}
+
+@-webkit-keyframes spinner {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.fs-spin {
+    -webkit-transform-origin: center center;
+    -webkit-animation: spinner 1s infinite linear;
+}
+
+.fs-ols-balloon::after {
+    content: '';
+    position: absolute;
+    top: var(--fs-balloon-height);
+    left: 10px;
+    right: 100%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--fs-border-color) transparent transparent transparent;
+}
+
+.fs-ols-balloon {
+    position: absolute;
+    height: var(--fs-balloon-height);
+    width: 439px;
+    z-index: 999999;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid var(--fs-border-color);
+    display: none;
+}
+
+.fs-ols-frame {
+    width: 439px;
+    height: var(--fs-balloon-height);
+    z-index: 999999;
+    border: 0;
+    border-radius: 5px;
+    background: var(--fs-bg-color);
+}
+
+.fs-ols-notification-popup {
+    min-height: 120px;
+    width: 364px;
+    min-width: 364px;
+    z-index: 999999;
+    border: 0;
+    background-color: var(--fs-bg-color);
+    display: block;
+    border-radius: 8px;
+    position: fixed;
+    z-index: 2147483647;
+    bottom: 15px;
+    right: -400px;
+    transition: all 500ms ease-out;
+    border: 1px solid rgba(206, 206, 206, 1);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+@media(prefers-color-scheme: dark) {
+    .fs-ols-notification-popup {
+        border: 1px solid rgba(58, 58, 60, 1);
+    }
+}

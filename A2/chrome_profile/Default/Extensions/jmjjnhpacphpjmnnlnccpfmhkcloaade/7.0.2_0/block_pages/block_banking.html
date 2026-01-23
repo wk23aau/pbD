@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../ols.css">
+    <link rel="stylesheet" type="text/css" href="block.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="fs-automation-id" content="block.banking">
+    <title data-locale="blockpage_banking_title"></title>
+    <link rel="shortcut icon" link sizes="any" type="image/svg+xml" href="../img/icon_info.svg"/>
+    <script type="text/javascript" src="../browser_resolver.js"></script>
+    <script type="text/javascript" src="../log.js"></script>
+    <script type="text/javascript" src="../browser_storage.js"></script>
+    <script type="text/javascript" src="../constants.js"></script>
+    <script type="text/javascript" src="../common_styles.js"></script>
+    <script type="text/javascript" src="../content_scripts/nif2_schema_monitoring.js"></script>
+    <script type="text/javascript" src="block.js"></script>
+  </head>
+  <body>
+    <header class="product-logo">
+    </header>
+    <div class="wrapper">
+      <div class="bg-pic bg-banking"></div>
+      <div class="info-icon-filled" style="width: 100%; margin-top: 20px;"></div>
+      <h2 data-locale="blockpage_banking_heading"></h2>
+      <div id="url" class="blue" style="margin-bottom: 12px;"></div>
+      <div data-locale="blockpage_banking_description" style="margin-bottom: 8px;"></div>
+      <div class="info-panel" style="padding: 8px;">
+        <div style="display: flex; margin-bottom: 8px;">
+            <div class="info-icon" style="width: 32px; margin-right: 4px; align-self: center;"></div>
+            <div style="text-align: left; align-self: center;">
+            <div data-locale="blockpage_banking_allow"></div>
+            </div>
+        </div>
+        <button id="website-allow" class="hds-button banking-button">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="admin-shield-icon" style="display: inline-block;"></div>
+                <div data-locale="blockpage_denied_allow"></div>
+            </div>
+        </button>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="bg-pic">
+        <object class="bg-by-fsecure" type="image/svg+xml" data="../img/by_fsecure.svg"></object>
+      </div>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,31 @@
+{
+   "action": {
+      "default_icon": "img/128_icon_lightmode.png",
+      "default_popup": "menu/popup_default.html"
+   },
+   "background": {
+      "service_worker": "bg_loader.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content_scripts/content.css" ],
+      "js": [ "browser_storage.js", "browser_resolver.js", "constants.js", "common.js", "common_styles.js", "log.js", "content_scripts/nif2_schema_monitoring.js", "content_scripts/nif2_breakpoint.js", "content_scripts/nif2_util.js", "content_scripts/nif2_ad_remover.js", "content_scripts/nif2_balloon.js", "content_scripts/nif2_rating_resources.js", "content_scripts/security_scan/iframe_remove_popup.js", "content_scripts/security_scan/iframe_source_detector.js", "content_scripts/security_scan/payment_form_detector.js", "content_scripts/consent_manager/consent_providers.js", "content_scripts/consent_manager/consent_manager.js", "content_scripts/nif2_main.js", "content_scripts/nif2_pattern_match.js", "content_scripts/nif2_elements.js", "trusted_shopping/popup.js", "trusted_shopping/trusted_shopping_main.js", "content_scripts/debug_info.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "homepage_url": "http://www.f-secure.com/en/web/home_global",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "img/store_icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAupCpBCE2//Y2wf+KW4wXvA2XWE64BqhBl6ObEnq1TXbJCGGb7NSrMK3K/BCHI4DN6bS4gT0Q4zPUPGMo5qziR9JRF1Zuqb/chHu5f+847B4e8nx7GsyEbxCVeJ5Y4d9J50TGlb2BtTbb4r6pWeh/8n0CIg7/uEJVDcELPFKagVNUVZem8ZHrHfTgSU5Qlz8M0kTeTx+m13ftAO8mXots2nuQVBNbHYWVoI9Qz3UV1vNypD/HqbR+IKI57rbFGKRUIqFYNUYZiQ9Y15tkoKtVbPsmbxdxDXdWTNseAW2KNX9loUN5mlJN00Teh6/2XOadCC3RLg/PlSxewA7KDhw5pQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_ext_name__",
+   "permissions": [ "tabs", "nativeMessaging", "webNavigation", "declarativeNetRequest", "storage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "img/*", "*.css" ]
+   } ]
+}

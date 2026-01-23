@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "Kad apsaugotų jūsų operacijas, „$PRODUCT_NAME$“ užblokavo šią svetainę per bankininkystės apsaugos seansą.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "Užblokavo bankininkystės apsauga"
+   },
+   "block_malicious_content": {
+      "message": "„$PRODUCT_NAME$“ šiame puslapyje aptiko kenkėjiško turinio ir jį užblokavo.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "Užblokuotas kenkėjiškas turinys."
+   },
+   "blockpage_banking_allow": {
+      "message": "Leiskite atverti šią svetainę, jei turite ją pasiekti, kad užbaigtumėte operacijas."
+   },
+   "blockpage_banking_description": {
+      "message": "Ši svetainė buvo laikinai užblokuota, kad netyčia neatskleistumėte savo informacijos, kol atidaryta bankininkystės svetainė."
+   },
+   "blockpage_banking_heading": {
+      "message": "Uždarykite visus bankininkystės skirtukus, kad pasiektumėte šią svetainę."
+   },
+   "blockpage_banking_title": {
+      "message": "Bankininkystės apsauga"
+   },
+   "blockpage_blocked": {
+      "message": "Prieiga prie svetainės uždrausta"
+   },
+   "blockpage_child_allow": {
+      "message": "Leisti prieigą prie šios svetainės"
+   },
+   "blockpage_child_description": {
+      "message": "Turite prieigą tik prie šių žiniatinklio svetainių:"
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "Dar nėra leidžiamų žiniatinklio svetainių."
+   },
+   "blockpage_child_heading": {
+      "message": "Prieiga prie svetainės uždrausta"
+   },
+   "blockpage_child_note": {
+      "message": "Taip pat galite pakeisti"
+   },
+   "blockpage_child_note_link": {
+      "message": "leidžiamos ir draudžiamos žiniatinklio svetainės"
+   },
+   "blockpage_child_title": {
+      "message": "Prieiga prie svetainės uždrausta"
+   },
+   "blockpage_denied_allow": {
+      "message": "Leisti atverti svetainę šiame kompiuteryje"
+   },
+   "blockpage_denied_description": {
+      "message": "„$PRODUCT_NAME$“ paskyros valdytojas užblokavo prieigą prie šios svetainės. Jei norite tęsti, jums reikia jo leidimo.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "Žiniatinklio svetainė užblokuota"
+   },
+   "blockpage_denied_title": {
+      "message": "Žiniatinklio svetainė užblokuota"
+   },
+   "blockpage_harmful_allow": {
+      "message": "Leisti atverti svetainę šiame kompiuteryje"
+   },
+   "blockpage_harmful_description": {
+      "message": "„$PRODUCT_NAME$“ įtraukė šią svetainę į kenkėjiškų svetainių sąrašą. Rekomenduojame nesilankyti šioje svetainėje.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "Neturėtumėte čia naršyti"
+   },
+   "blockpage_harmful_report": {
+      "message": "Pranešti apie klaidingai teigiamą rezultatą čia"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "Nemanote, kad tai žalinga?"
+   },
+   "blockpage_harmful_title": {
+      "message": "Kenkėjiška žiniatinklio svetainė užblokuota"
+   },
+   "blockpage_illegal_allow": {
+      "message": "Vis tiek pasiekti"
+   },
+   "blockpage_illegal_description": {
+      "message": "„$PRODUCT_NAME$“ pranešė apie šią svetainę kaip turinčią uždrausto turinio. Primygtinai rekomenduojame nesilankyti šioje svetainėje.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "Draudžiama svetainė"
+   },
+   "blockpage_illegal_report": {
+      "message": "Pranešti apie klaidingai teigiamą rezultatą čia"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "Nemanote, kad tai žalinga?"
+   },
+   "blockpage_illegal_title": {
+      "message": "Užblokuota draudžiama svetainė"
+   },
+   "blockpage_parental_allow": {
+      "message": "Leisti atverti svetainę šiame kompiuteryje"
+   },
+   "blockpage_parental_description": {
+      "message": "„$PRODUCT_NAME$“ užblokavo šį turinį, nes jis priklauso apribotai kategorijai:",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "Žiniatinklio svetainė užblokuota"
+   },
+   "blockpage_parental_report": {
+      "message": "Pranešti apie klaidingai teigiamą svetainę"
+   },
+   "blockpage_parental_title": {
+      "message": "Žiniatinklio svetainė užblokuota"
+   },
+   "blockpage_suspicious_allow": {
+      "message": "Vis tiek pasiekti"
+   },
+   "blockpage_suspicious_description": {
+      "message": "„$PRODUCT_NAME$“ įtraukė šią svetainę į įtartinų svetainių sąrašą. Rekomenduojame nesilankyti šioje svetainėje.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "Neturėtumėte čia naršyti"
+   },
+   "blockpage_suspicious_report": {
+      "message": "Pranešti apie klaidingai teigiamą rezultatą čia"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "Nemanote, kad tai žalinga?"
+   },
+   "blockpage_suspicious_title": {
+      "message": "Užblokuota įtartina svetainė"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "Ši apsipirkimo svetainė pažymėta keliomis raudonomis vėliavėlėmis. Yra tikimybė, kad tai apgaulinga svetainė!"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "Neturėtumėte čia naršyti"
+   },
+   "category_abortion": {
+      "message": "Abortas"
+   },
+   "category_adserving": {
+      "message": "Reklamų teikimas"
+   },
+   "category_adult": {
+      "message": "Suaugusiesiems"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "Alkoholis ir tabakas"
+   },
+   "category_anonymizers": {
+      "message": "Anonimizatoriai"
+   },
+   "category_auctions": {
+      "message": "Aukcionai"
+   },
+   "category_banking": {
+      "message": "Bankininkystė"
+   },
+   "category_blogs": {
+      "message": "Tinklaraščiai"
+   },
+   "category_chat": {
+      "message": "Pokalbiai"
+   },
+   "category_dating": {
+      "message": "Pažintys"
+   },
+   "category_disturbing": {
+      "message": "Trikdantis turinys"
+   },
+   "category_drugs": {
+      "message": "Narkotikai"
+   },
+   "category_entertainment": {
+      "message": "Pramogos"
+   },
+   "category_file_sharing": {
+      "message": "Failų bendrinimas"
+   },
+   "category_forums": {
+      "message": "Forumai"
+   },
+   "category_gambling": {
+      "message": "Azartiniai lošimai"
+   },
+   "category_games": {
+      "message": "Žaidimai"
+   },
+   "category_hacking": {
+      "message": "Programišių veikla"
+   },
+   "category_hate": {
+      "message": "Neapykanta"
+   },
+   "category_illegal": {
+      "message": "Neteisėta"
+   },
+   "category_illegal_downloads": {
+      "message": "Neteisėti atsiuntimai"
+   },
+   "category_job_search": {
+      "message": "Darbo ieška"
+   },
+   "category_payment_services": {
+      "message": "Mokėjimo paslaugos"
+   },
+   "category_scam": {
+      "message": "Apgaulė"
+   },
+   "category_search_engines": {
+      "message": "Ieškos sistemos"
+   },
+   "category_shopping": {
+      "message": "Apsipirkimas"
+   },
+   "category_shopping_and_auctions": {
+      "message": "Apsipirkimas ir aukcionai"
+   },
+   "category_social_networks": {
+      "message": "Socialiniai tinklai"
+   },
+   "category_software_downloads": {
+      "message": "Programinės įrangos atsisiuntimai"
+   },
+   "category_spam": {
+      "message": "Pašto šiukšlės"
+   },
+   "category_streaming_media": {
+      "message": "Multimedijos srautas"
+   },
+   "category_travel": {
+      "message": "Kelionės"
+   },
+   "category_unknown": {
+      "message": "Nežinoma"
+   },
+   "category_violence": {
+      "message": "Smurtas"
+   },
+   "category_weapons": {
+      "message": "Ginklai"
+   },
+   "category_webmail": {
+      "message": "Žiniatinklio paštas"
+   },
+   "close_btn": {
+      "message": "Uždaryti"
+   },
+   "cookie_blocker_p1": {
+      "message": "Šioje svetainėje automatiškai atmetami neesminiai slapukai."
+   },
+   "error_ca_text_p1": {
+      "message": "Nepavyko prisijungti prie programos"
+   },
+   "error_ca_text_p2": {
+      "message": "Patikrinkite konfigūraciją"
+   },
+   "ext_description": {
+      "message": "Plėtinys, padedantis apsaugoti šifruotą naršymą naudojant „F-Secure“ saugos produktus."
+   },
+   "ext_name": {
+      "message": "„F-Secure“ naršymo apsauga"
+   },
+   "ext_name_alpha": {
+      "message": "„F-Secure“ naršymo apsauga (alfa versija)"
+   },
+   "ext_name_beta": {
+      "message": "„F-Secure“ naršymo apsauga (beta versija)"
+   },
+   "ext_name_safari_full": {
+      "message": "„F-Secure“ saugusis naršymas"
+   },
+   "ext_name_safari_short": {
+      "message": "Saugus naršymas"
+   },
+   "ext_onboarding_acccept": {
+      "message": "Sutikti"
+   },
+   "ext_onboarding_allow": {
+      "message": "Leisti"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "Plėtinio nustatymas baigtas. Dabar puslapis bus uždarytas."
+   },
+   "ext_onboarding_decline": {
+      "message": "Atmesti"
+   },
+   "ext_onboarding_description": {
+      "message": "Priimti leidimus?"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "Kad kenkėjiškos svetainės nepadarytų jums žalos, „$EXTENSION_NAME$“ nuskaito svetainių, kuriose lankotės, adresus ir patikrina, ar jos nėra užregistruotos kaip žalingos. Mūsų automatizuota „Security Cloud“ programa padaro taip, kad pagal adresus (URL) nebūtų galima nustatyti tapatybės, ir juos tvarko pagal mūsų \u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a>.",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1"
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2"
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "Kad galėtume apsaugoti jūsų naršymo veiklą, turite duoti sutikimą"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "Plėtinio nustatymas atšauktas. Dabar plėtinys bus išdiegtas."
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "Privatumo politika"
+   },
+   "ext_open_consent": {
+      "message": "Atidaryti"
+   },
+   "ext_show_consent_msg": {
+      "message": "Apsilankykite sutikimo puslapyje."
+   },
+   "learn_more": {
+      "message": "Daugiau informacijos"
+   },
+   "manage_protection": {
+      "message": "Pakeisti pranešimų nustatymus"
+   },
+   "open_settings": {
+      "message": "Atidarykite apsaugos nuo apgaulės nuostatas"
+   },
+   "page_adblock_allowed_count": {
+      "message": "reklamos šioje svetainėje leidžiamos"
+   },
+   "page_adblock_blocked_count": {
+      "message": "Šioje svetainėje užblokuota tiek skelbimų: $COUNT$",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "Reklamos blokuoklė šioje svetainėje išjungta"
+   },
+   "page_adblock_feature_on": {
+      "message": "Reklamos blokuoklė šioje svetainėje įjungta"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "Įjunkite ją $PRODUCT_NAME$ nuostatose",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "Reklamos blokuoklė neaktyvi"
+   },
+   "page_back": {
+      "message": "Atgal"
+   },
+   "page_banking": {
+      "message": "Bankininkystės svetainė"
+   },
+   "page_blocked": {
+      "message": "Prieiga prie svetainės uždrausta"
+   },
+   "page_cancel": {
+      "message": "Atšaukti"
+   },
+   "page_harmful": {
+      "message": "Kenkėjiška svetainė"
+   },
+   "page_next": {
+      "message": "Toliau"
+   },
+   "page_not_available": {
+      "message": "Vertinimo informacija nepasiekiama"
+   },
+   "page_prohibited": {
+      "message": "Draudžiama svetainė"
+   },
+   "page_report": {
+      "message": "Pateikti pranešimą"
+   },
+   "page_report_banking": {
+      "message": "Pranešti, kad tai yra bankininkystės tinklalapis."
+   },
+   "page_report_ext": {
+      "message": "Pranešti apie šią svetainę"
+   },
+   "page_report_harmful": {
+      "message": "Pranešti, kad tinklalapis yra žalingas."
+   },
+   "page_report_safe": {
+      "message": "Pranešti, kad tinklalapis yra saugus."
+   },
+   "page_report_suspicious": {
+      "message": "Pranešti, kad tinklalapis yra įtartinas."
+   },
+   "page_safe": {
+      "message": "Saugi svetainė"
+   },
+   "page_success_p1": {
+      "message": "Dėkojame! Išanalizuosime pranešimą ir netrukus pakoreguosime šios svetainės vertinimą."
+   },
+   "page_suggest_category": {
+      "message": "Pasirinkite kategorijas, kurios taikomos šiai svetainei:"
+   },
+   "page_suggest_rating": {
+      "message": "Pasiūlykite naują įvertinimą arba kategoriją:"
+   },
+   "page_suspicious": {
+      "message": "Įtartina svetainė"
+   },
+   "page_suspicious_p1": {
+      "message": "Nurodykite, kodėl šis tinklalapis atrodo įtartinas"
+   },
+   "page_unsafe": {
+      "message": "Nesaugi svetainė"
+   },
+   "page_wrong_cat_1": {
+      "message": "Pasirinkite kategoriją"
+   },
+   "page_wrong_cat_2": {
+      "message": "Keisti šeimos taisyklių kategoriją"
+   },
+   "page_wrong_rating_1": {
+      "message": "Atsiųskite mums pranešimą, jei manote, kad svetainė įvertinta neteisingai."
+   },
+   "page_wrong_rating_2": {
+      "message": "Padėkite mums išsiųsdami pranešimą."
+   },
+   "popup_error_description": {
+      "message": "Jūsų programa išdiegta arba neturite suderinamos versijos. Įdiekite naujausią programos versiją ir bandykite dar kartą."
+   },
+   "popup_error_header": {
+      "message": "Saugos programa nerasta"
+   },
+   "popup_status_init": {
+      "message": "Inicijuojama..."
+   },
+   "popup_status_ok": {
+      "message": "Jūsų naršyklė apsaugota"
+   },
+   "search_rating_allowed": {
+      "message": "Administratorius leidžia prieigą prie šios svetainės"
+   },
+   "search_rating_banking": {
+      "message": "Ši svetainė laikinai užblokuota, kad būtų užtikrinta jūsų apsauga per bankininkystės seansus"
+   },
+   "search_rating_category_adult": {
+      "message": "Suaugusiesiems"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "Alkoholis ir tabakas"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "Anonimizatoriai"
+   },
+   "search_rating_category_dating": {
+      "message": "Pažintys"
+   },
+   "search_rating_category_disturbing": {
+      "message": "Trikdantis turinys"
+   },
+   "search_rating_category_drugs": {
+      "message": "Narkotikai"
+   },
+   "search_rating_category_gambling": {
+      "message": "Azartiniai lošimai"
+   },
+   "search_rating_category_hate": {
+      "message": "Neapykanta"
+   },
+   "search_rating_category_illegal": {
+      "message": "Neteisėta"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "Neteisėti atsiuntimai"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "Apsipirkimas ir aukcionai"
+   },
+   "search_rating_category_social_networks": {
+      "message": "Socialiniai tinklai"
+   },
+   "search_rating_category_status": {
+      "message": "Šią svetainę apribojo šeimos taisyklių funkcija"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "Multimedijos srautas"
+   },
+   "search_rating_category_unknown": {
+      "message": "Nežinoma"
+   },
+   "search_rating_category_violence": {
+      "message": "Smurtas"
+   },
+   "search_rating_category_weapons": {
+      "message": "Ginklai"
+   },
+   "search_rating_denied": {
+      "message": "Administratorius uždraudė prieigą prie šios svetainės"
+   },
+   "search_rating_harmful": {
+      "message": "Ši svetainė įvertinta kaip nesaugi, todėl neturėtumėte joje naršyti."
+   },
+   "search_rating_harmful_p1": {
+      "message": "Ši svetainė įvertinta kaip nesaugi"
+   },
+   "search_rating_harmful_p2": {
+      "message": "Neturėtumėte joje naršyti"
+   },
+   "search_rating_illegal": {
+      "message": "Ši svetainė uždrausta."
+   },
+   "search_rating_isbank": {
+      "message": "Tai yra patikima internetinės bankininkystės svetainė."
+   },
+   "search_rating_loading": {
+      "message": "Įkeliama..."
+   },
+   "search_rating_restricted": {
+      "message": "Šioje svetainėje yra apriboto turinio"
+   },
+   "search_rating_safe": {
+      "message": "Ši svetainė atrodo saugi."
+   },
+   "search_rating_safe_p1": {
+      "message": "Ši svetainė yra saugi"
+   },
+   "search_rating_safe_p2": {
+      "message": "Smagaus naršymo šioje svetainėje"
+   },
+   "search_rating_shopping_caution": {
+      "message": "Ši svetainė nėra gerai įvertinta"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "Ši apsipirkimo svetainė gali būti saugi, tačiau ji negauna viso balo."
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "Ši svetainė gali būti įtartina"
+   },
+   "search_rating_shopping_warn": {
+      "message": "Ši svetainė gali būti nesaugi"
+   },
+   "search_rating_suspicious": {
+      "message": "Ši svetainė yra įtartina."
+   },
+   "search_rating_suspicious_p1": {
+      "message": "Ši svetainė įtartina"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "Būkite atsargūs naršydami"
+   },
+   "search_rating_unknown": {
+      "message": "Ši svetainė dar neišanalizuota."
+   },
+   "trusted_shopping_harmful": {
+      "message": "Atidarėte nesaugią apsipirkimo svetainę."
+   },
+   "trusted_shopping_instructions": {
+      "message": "Pakeiskite šio pranešimo matomumą $PRODUCT_NAME$ nustatymuose.",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "Remiantis keliomis apžvalgomis ir saugumo įvertinimais."
+   },
+   "trusted_shopping_risky": {
+      "message": "Ši svetainė gali būti nesaugi. Patariame būti atsargiems naršant joje."
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "Pirkti šioje svetainėje yra saugu."
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "Ši apsipirkimo svetainė yra gerai įvertinta ir patikima, gero apsipirkimo!"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "Ši svetainė nėra visiškai patikima. Patariame būti atsargiems naršant joje."
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "Patartina apsiperkant šioje svetainėje būti atsargiems."
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "Ši svetainė dar neišanalizuota."
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "Patartina būti atsargiems apsiperkant šioje svetainėje."
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "Apsipirkti šioje svetainėje gali būti saugu, tačiau jai nesuteikiamas visas saugumo balas."
+   },
+   "url_not_available": {
+      "message": "Nepasiekiamas URL"
+   },
+   "website_categories": {
+      "message": "Svetainės kategorijos"
+   }
+}

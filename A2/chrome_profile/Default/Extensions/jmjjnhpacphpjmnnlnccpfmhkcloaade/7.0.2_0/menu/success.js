@@ -1,0 +1,13 @@
+/*
+ * Copyright (c) F-Secure Corporation. All rights reserved.
+ * See license terms for the related product.
+ */
+
+document.addEventListener("DOMContentLoaded", () => {
+    let reportButton = document.getElementById("btn-report");
+    if (reportButton) {
+        reportButton.addEventListener("click", () => {
+            window.location.href = "new_rating.html";
+        });
+    }
+})

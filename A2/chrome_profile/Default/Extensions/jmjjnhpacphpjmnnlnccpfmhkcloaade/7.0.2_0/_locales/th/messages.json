@@ -1,0 +1,633 @@
+{
+   "banking_blocked_description": {
+      "message": "เพื่อปกป้องธุรกรรมของคุณ $PRODUCT_NAME$ ได้บล็อกเว็บไซต์นี้ในระหว่างเซสชันการปกป้องข้อมูลทางธนาคารของคุณ",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "banking_blocked_status": {
+      "message": "ถูกบล็อกโดยระบบการปกป้องข้อมูลธนาคาร"
+   },
+   "block_malicious_content": {
+      "message": "$PRODUCT_NAME$ ตรวจพบเนื้อหาที่เป็นอันตรายบนหน้านี้และได้ทำการบล็อกเนื้อหาดังกล่าวแล้ว",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "block_malicious_title": {
+      "message": "เนื้อหาที่เป็นอันตรายถูกบล็อกแล้ว"
+   },
+   "blockpage_banking_allow": {
+      "message": "อนุญาตเว็บไซต์นี้หากคุณต้องการเข้าถึงเพื่อดำเนินการธุรกรรมของคุณให้เสร็จสมบูรณ์"
+   },
+   "blockpage_banking_description": {
+      "message": "เว็บไซต์นี้ถูกบล็อคชั่วคราวเพื่อป้องกันไม่ให้คุณเปิดเผยข้อมูลของคุณโดยไม่ได้ตั้งใจขณะที่เว็บไซต์ธนาคารเปิดอยู่"
+   },
+   "blockpage_banking_heading": {
+      "message": "ปิดแท็บธนาคารทั้งหมดเพื่อเข้าถึงเว็บไซต์นี้"
+   },
+   "blockpage_banking_title": {
+      "message": "การปกป้องข้อมูลธนาคาร"
+   },
+   "blockpage_blocked": {
+      "message": "ปฏิเสธเว็บไซต์แล้ว"
+   },
+   "blockpage_child_allow": {
+      "message": "อนุญาตเว็บไซต์นี้"
+   },
+   "blockpage_child_description": {
+      "message": "คุณสามารถเข้าถึงเว็บไซต์เหล่านี้ได้เท่านั้น:"
+   },
+   "blockpage_child_empty_list_description": {
+      "message": "ยังไม่มีเว็บไซต์ที่อนุญาต"
+   },
+   "blockpage_child_heading": {
+      "message": "ปฏิเสธเว็บไซต์แล้ว"
+   },
+   "blockpage_child_note": {
+      "message": "คุณสามารถทำการเปลี่ยนแปลง"
+   },
+   "blockpage_child_note_link": {
+      "message": "เว็บไซต์ที่อนุญาตและปฏิเสธ"
+   },
+   "blockpage_child_title": {
+      "message": "ปฏิเสธเว็บไซต์แล้ว"
+   },
+   "blockpage_denied_allow": {
+      "message": "อนุญาติให้เว็บไซต์บนคอมพิวเตอร์เครื่องนี้"
+   },
+   "blockpage_denied_description": {
+      "message": "ผู้จัดการบัญชี $PRODUCT_NAME$ ได้บล็อกการเข้าถึงเว็บไซต์นี้ คุณต้องได้รับอนุญาตจากพวกเขาจึงจะดำเนินการต่อได้",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_denied_heading": {
+      "message": "บล็อกเว็บไซต์แล้ว"
+   },
+   "blockpage_denied_title": {
+      "message": "บล็อกเว็บไซต์แล้ว"
+   },
+   "blockpage_harmful_allow": {
+      "message": "อนุญาติให้เว็บไซต์บนคอมพิวเตอร์เครื่องนี้"
+   },
+   "blockpage_harmful_description": {
+      "message": "$PRODUCT_NAME$ ได้ระบุเว็บไซต์นี้ว่าเป็นอันตราย เราไม่แนะนำให้คุณเข้าสู่เว็บไซต์นี้",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_harmful_heading": {
+      "message": "คุณไม่ควรท่องเว็บนี้"
+   },
+   "blockpage_harmful_report": {
+      "message": "รายงานผลบวกปลอมที่นี่"
+   },
+   "blockpage_harmful_report_note": {
+      "message": "ไม่คิดว่าเป็นอันตรายใช่ไหม"
+   },
+   "blockpage_harmful_title": {
+      "message": "บล็อกเว็บไซต์ที่เป็นอันตรายแล้ว"
+   },
+   "blockpage_illegal_allow": {
+      "message": "เข้าถึงเลย"
+   },
+   "blockpage_illegal_description": {
+      "message": "$PRODUCT_NAME$ ได้รายงานว่าเว็บไซต์นี้มีเนื้อหาต้องห้าม เราขอแนะนำอย่างยิ่งให้คุณอย่าเข้าสู่เว็บไซต์นี้",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_illegal_heading": {
+      "message": "เว็บไซต์ต้องห้าม"
+   },
+   "blockpage_illegal_report": {
+      "message": "รายงานผลบวกปลอมที่นี่"
+   },
+   "blockpage_illegal_report_note": {
+      "message": "ไม่คิดว่าเป็นอันตรายใช่ไหม"
+   },
+   "blockpage_illegal_title": {
+      "message": "บล็อกเว็บไซต์ต้องห้ามแล้ว"
+   },
+   "blockpage_parental_allow": {
+      "message": "อนุญาติให้เว็บไซต์บนคอมพิวเตอร์เครื่องนี้"
+   },
+   "blockpage_parental_description": {
+      "message": "$PRODUCT_NAME$ ได้บล็อกเนื้อหานี้เนื่องจากถูกจำกัดอยู่ในหมวดหมู่:",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_parental_heading": {
+      "message": "บล็อกเว็บไซต์แล้ว"
+   },
+   "blockpage_parental_report": {
+      "message": "รายงานเว็บไซต์ที่เป็นผลบวกปลอม"
+   },
+   "blockpage_parental_title": {
+      "message": "บล็อกเว็บไซต์แล้ว"
+   },
+   "blockpage_suspicious_allow": {
+      "message": "เข้าถึงเลย"
+   },
+   "blockpage_suspicious_description": {
+      "message": "$PRODUCT_NAME$ ได้ระบุเว็บไซต์นี้เป็นเว็บไซต์ที่น่าสงสัย เราไม่แนะนำให้คุณเข้าสู่เว็บไซต์นี้",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "blockpage_suspicious_heading": {
+      "message": "คุณไม่ควรท่องเว็บนี้"
+   },
+   "blockpage_suspicious_report": {
+      "message": "รายงานผลบวกปลอมที่นี่"
+   },
+   "blockpage_suspicious_report_note": {
+      "message": "ไม่คิดว่าเป็นอันตรายใช่ไหม"
+   },
+   "blockpage_suspicious_title": {
+      "message": "บล็อกเว็บไซต์ที่น่าสงสัยแล้ว"
+   },
+   "blockpage_trusted_shopping_description": {
+      "message": "เว็บไซต์ช็อปปิ้งนี้มีสัญญาณอันตรายหลายจุด อาจเป็นไปได้ว่านี่เป็นเว็บไซต์หลอกลวง!"
+   },
+   "blockpage_trusted_shopping_title": {
+      "message": "คุณไม่ควรท่องเว็บนี้"
+   },
+   "category_abortion": {
+      "message": "การทำแท้ง"
+   },
+   "category_adserving": {
+      "message": "การให้บริการโฆษณา"
+   },
+   "category_adult": {
+      "message": "ผู้ใหญ่"
+   },
+   "category_alcohol_and_tobacco": {
+      "message": "แอลกอฮอล์และยาสูบ"
+   },
+   "category_anonymizers": {
+      "message": "โปรแกรมซ่อนตัว"
+   },
+   "category_auctions": {
+      "message": "การประมูล"
+   },
+   "category_banking": {
+      "message": "การธนาคาร"
+   },
+   "category_blogs": {
+      "message": "บล็อก"
+   },
+   "category_chat": {
+      "message": "แชท"
+   },
+   "category_dating": {
+      "message": "การระบุวันที่"
+   },
+   "category_disturbing": {
+      "message": "รบกวนใจ"
+   },
+   "category_drugs": {
+      "message": "ยาเสพติด"
+   },
+   "category_entertainment": {
+      "message": "ความบันเทิง"
+   },
+   "category_file_sharing": {
+      "message": "การแบ่งปันไฟล์"
+   },
+   "category_forums": {
+      "message": "ฟอรั่ม"
+   },
+   "category_gambling": {
+      "message": "การพนัน"
+   },
+   "category_games": {
+      "message": "เกมส์"
+   },
+   "category_hacking": {
+      "message": "การแฮ็ก"
+   },
+   "category_hate": {
+      "message": "ไม่ชอบ"
+   },
+   "category_illegal": {
+      "message": "ผิดกฎหมาย"
+   },
+   "category_illegal_downloads": {
+      "message": "การดาวน์โหลดที่ผิดกฎหมาย"
+   },
+   "category_job_search": {
+      "message": "ค้นหางาน"
+   },
+   "category_payment_services": {
+      "message": "บริการชำระเงิน"
+   },
+   "category_scam": {
+      "message": "หลอกลวง"
+   },
+   "category_search_engines": {
+      "message": "เครื่องมือค้นหา"
+   },
+   "category_shopping": {
+      "message": "ช้อปปิ้ง"
+   },
+   "category_shopping_and_auctions": {
+      "message": "ช้อปปิ้งและการประมูล"
+   },
+   "category_social_networks": {
+      "message": "เครือข่ายโซเชียล"
+   },
+   "category_software_downloads": {
+      "message": "ดาวน์โหลดซอฟต์แวร์"
+   },
+   "category_spam": {
+      "message": "สแปม"
+   },
+   "category_streaming_media": {
+      "message": "สตรีมมิงมีเดีย"
+   },
+   "category_travel": {
+      "message": "การท่องเที่ยว"
+   },
+   "category_unknown": {
+      "message": "ไม่รู้จัก"
+   },
+   "category_violence": {
+      "message": "ความรุนแรง"
+   },
+   "category_weapons": {
+      "message": "อาวุธ"
+   },
+   "category_webmail": {
+      "message": "เว็บเมล์"
+   },
+   "close_btn": {
+      "message": "ปิด"
+   },
+   "cookie_blocker_p1": {
+      "message": "คุกกี้ที่ไม่จำเป็นจะถูกปฏิเสธโดยอัตโนมัติสำหรับเว็บไซต์นี้"
+   },
+   "error_ca_text_p1": {
+      "message": "ไม่สามารถเชื่อมต่อกับแอปพลิเคชันได้"
+   },
+   "error_ca_text_p2": {
+      "message": "ตรวจสอบการกำหนดค่าของคุณ"
+   },
+   "ext_description": {
+      "message": "ส่วนขยายสำหรับการปกป้องการท่องเว็บแบบเข้ารหัสด้วยผลิตภัณฑ์ด้านความปลอดภัยจาก F-Secure"
+   },
+   "ext_name": {
+      "message": "การปกป้องการท่องเว็บโดย F-Secure"
+   },
+   "ext_name_alpha": {
+      "message": "การปกป้องการท่องเว็บโดย F-Secure (แอลฟา)"
+   },
+   "ext_name_beta": {
+      "message": "การปกป้องการท่องเว็บโดย F-Secure (เบต้า)"
+   },
+   "ext_name_safari_full": {
+      "message": "Secure Browsing by F-Secure"
+   },
+   "ext_name_safari_short": {
+      "message": "การท่องเว็บอย่างปลอดภัย"
+   },
+   "ext_onboarding_acccept": {
+      "message": "ยอมรับ"
+   },
+   "ext_onboarding_allow": {
+      "message": "อนุญาต"
+   },
+   "ext_onboarding_complete_message": {
+      "message": "การติดตั้งส่วนขยายเสร็จสมบูรณ์แล้ว ระบบจะปิดหน้านี้ในตอนนี้"
+   },
+   "ext_onboarding_decline": {
+      "message": "ปฏิเสธ"
+   },
+   "ext_onboarding_description": {
+      "message": "ต้องการยอมรับสิทธิ์หรือไม่"
+   },
+   "ext_onboarding_description_consent_warn_descr": {
+      "message": "เพื่อป้องกันไม่ให้เว็บไซต์ที่เป็นอันตรายก่อความเสียหายต่อคุณ $EXTENSION_NAME$ จะสแกนที่อยู่ของเว็บไซต์ที่คุณเยี่ยมชมเพื่อตรวจสอบว่าเป็นอันตรายหรือไม่ ที่อยู่ (URL) จะผ่านกระบวนการเพื่อทำให้ไม่สามารถระบุตัวตนได้และจะถูกจัดการโดยระบบคลาวด์ความปลอดภัยอัตโนมัติของเราโดยตาม\u003Ca id='open-privacy-policy' href='#'>$PRIVACY_POLICY$\u003C/a>ของเรา",
+      "placeholders": {
+         "EXTENSION_NAME": {
+            "content": "$1"
+         },
+         "PRIVACY_POLICY": {
+            "content": "$2"
+         }
+      }
+   },
+   "ext_onboarding_description_consent_warn_title": {
+      "message": "การปกป้องการท่องเว็บจำเป็นต้องได้รับการยินยอม"
+   },
+   "ext_onboarding_fail_message": {
+      "message": "การติดตั้งส่วนขยายเสร็จสมบูรณ์แล้ว หน้าจะถูกปิดในตอนนี้"
+   },
+   "ext_onboarding_privacy_policy_link": {
+      "message": "นโยบายความเป็นส่วนตัว"
+   },
+   "ext_open_consent": {
+      "message": "เปิด"
+   },
+   "ext_show_consent_msg": {
+      "message": "กรุณาเข้าไปที่หน้าการยินยอม"
+   },
+   "learn_more": {
+      "message": "เรียนรู้เพิ่มเติม"
+   },
+   "manage_protection": {
+      "message": "เปลี่ยนการตั้งค่าการแจ้งเตือน"
+   },
+   "open_settings": {
+      "message": "เปิดการตั้งค่าการป้องกันการหลอกลวง"
+   },
+   "page_adblock_allowed_count": {
+      "message": "โฆษณาที่อนุญาตบนเว็บไซต์นี้"
+   },
+   "page_adblock_blocked_count": {
+      "message": "โฆษณา $COUNT$ รายการถูกบล็อกบนเว็บไซต์นี้",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_feature_off": {
+      "message": "ตัวบล็อกโฆษณาถูกปิดสำหรับเว็บไซต์นี้"
+   },
+   "page_adblock_feature_on": {
+      "message": "เว็บไซต์นี้เปิดใช้งานตัวบล็อกโฆษณาแล้ว"
+   },
+   "page_adblock_master_switch_enable": {
+      "message": "เปิดใช้งานจากการตั้งค่า $PRODUCT_NAME$",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "page_adblock_master_switch_off": {
+      "message": "ตัวบล็อกโฆษณาไม่ได้ทำงานอยู่"
+   },
+   "page_back": {
+      "message": "กลับ"
+   },
+   "page_banking": {
+      "message": "เว็บไซต์ธนาคาร"
+   },
+   "page_blocked": {
+      "message": "ปฏิเสธเว็บไซต์แล้ว"
+   },
+   "page_cancel": {
+      "message": "ยกเลิก"
+   },
+   "page_harmful": {
+      "message": "เว็บไซต์ที่เป็นอันตราย"
+   },
+   "page_next": {
+      "message": "ถัดไป"
+   },
+   "page_not_available": {
+      "message": "ข้อมูลการให้คะแนนยังไม่พร้อมใช้งาน"
+   },
+   "page_prohibited": {
+      "message": "เว็บไซต์ต้องห้าม"
+   },
+   "page_report": {
+      "message": "รายงาน"
+   },
+   "page_report_banking": {
+      "message": "รายงานเป็นธุรกรรมทางการเงิน"
+   },
+   "page_report_ext": {
+      "message": "รายงานเว็บไซต์นี้"
+   },
+   "page_report_harmful": {
+      "message": "รายงานว่าเป็นอันตราย"
+   },
+   "page_report_safe": {
+      "message": "รายงานว่าปลอดภัย"
+   },
+   "page_report_suspicious": {
+      "message": "รายงานว่าน่าสงสัย"
+   },
+   "page_safe": {
+      "message": "เว็บไซต์ที่ปลอดภัย"
+   },
+   "page_success_p1": {
+      "message": "ขอขอบคุณ เราจะทำการวิเคราะห์รายงานและปรับปรุงการให้คะแนนของเว็บไซต์นี้เร็วๆ นี้"
+   },
+   "page_suggest_category": {
+      "message": "เลือกหมวดหมู่ที่ใช้ได้กับเว็บไซต์นี้:"
+   },
+   "page_suggest_rating": {
+      "message": "แนะนำการให้คะแนนหรือหมวดหมู่ใหม่:"
+   },
+   "page_suspicious": {
+      "message": "เว็บไซต์ที่น่าสงสัย"
+   },
+   "page_suspicious_p1": {
+      "message": "กรุณาอธิบายว่าทำไมหน้านี้จึงดูน่าสงสัย"
+   },
+   "page_unsafe": {
+      "message": "เว็บไซต์ที่ไม่ปลอดภัย "
+   },
+   "page_wrong_cat_1": {
+      "message": "เลือกหมวดหมู่"
+   },
+   "page_wrong_cat_2": {
+      "message": "เปลี่ยนหมวดของกฎครอบครัว"
+   },
+   "page_wrong_rating_1": {
+      "message": "กรุณาส่งรายงานถึงเราหากคุณคิดว่าเว็บไซต์นี้ได้รับการจัดอันดับไม่ถูกต้อง"
+   },
+   "page_wrong_rating_2": {
+      "message": "ช่วยพวกเราโดยการส่งรายงาน"
+   },
+   "popup_error_description": {
+      "message": "แอปพลิเคชันของคุณถูกถอนการติดตั้งหรือคุณไม่มีเวอร์ชันที่รองรับ กรุณาติดตั้งแอปพลิเคชันเวอร์ชันล่าสุดแล้วลองอีกครั้ง"
+   },
+   "popup_error_header": {
+      "message": "ไม่พบแอปพลิเคชันด้านความปลอดภัย"
+   },
+   "popup_status_init": {
+      "message": "กำลังเริ่มต้น..."
+   },
+   "popup_status_ok": {
+      "message": "เบราว์เซอร์ของคุณได้รับการปกป้องแล้ว"
+   },
+   "search_rating_allowed": {
+      "message": "เว็บไซต์นี้ได้รับอนุญาตจากผู้ดูแลระบบ"
+   },
+   "search_rating_banking": {
+      "message": "เว็บไซต์นี้ถูกบล็อกชั่วคราวเพื่อปกป้องคุณในระหว่างเซสชันการทำธุรกรรมทางการเงินของคุณ"
+   },
+   "search_rating_category_adult": {
+      "message": "ผู้ใหญ่"
+   },
+   "search_rating_category_alcohol_and_tobacco": {
+      "message": "แอลกอฮอล์และยาสูบ"
+   },
+   "search_rating_category_anonymizers": {
+      "message": "โปรแกรมซ่อนตัว"
+   },
+   "search_rating_category_dating": {
+      "message": "การระบุวันที่"
+   },
+   "search_rating_category_disturbing": {
+      "message": "รบกวนใจ"
+   },
+   "search_rating_category_drugs": {
+      "message": "ยาเสพติด"
+   },
+   "search_rating_category_gambling": {
+      "message": "การพนัน"
+   },
+   "search_rating_category_hate": {
+      "message": "ไม่ชอบ"
+   },
+   "search_rating_category_illegal": {
+      "message": "ผิดกฎหมาย"
+   },
+   "search_rating_category_illegal_downloads": {
+      "message": "การดาวน์โหลดที่ผิดกฎหมาย"
+   },
+   "search_rating_category_shopping_and_auctions": {
+      "message": "ช้อปปิ้งและการประมูล"
+   },
+   "search_rating_category_social_networks": {
+      "message": "เครือข่ายโซเชียล"
+   },
+   "search_rating_category_status": {
+      "message": "เว็บไซต์นี้ถูกจำกัดโดยกฎครอบครัว"
+   },
+   "search_rating_category_streaming_media": {
+      "message": "สตรีมมิงมีเดีย"
+   },
+   "search_rating_category_unknown": {
+      "message": "ไม่รู้จัก"
+   },
+   "search_rating_category_violence": {
+      "message": "ความรุนแรง"
+   },
+   "search_rating_category_weapons": {
+      "message": "อาวุธ"
+   },
+   "search_rating_denied": {
+      "message": "เว็บไซต์นี้ถูกปฏิเสธโดยผู้ดูแลระบบ"
+   },
+   "search_rating_harmful": {
+      "message": "เว็บไซต์นี้ถูกจัดระดับว่าไม่ปลอดภัย คุณไม่ควรใช้งานเว็บไซต์นี้"
+   },
+   "search_rating_harmful_p1": {
+      "message": "เว็บไซต์นี้ถูกจัดระดับว่าไม่ปลอดภัย"
+   },
+   "search_rating_harmful_p2": {
+      "message": "คุณไม่ควรท่องเว็บที่นี่"
+   },
+   "search_rating_illegal": {
+      "message": "เว็บไซต์นี้เป็นเว็บไซต์ต้องห้าม"
+   },
+   "search_rating_isbank": {
+      "message": "นี่เป็นเว็บไซต์ธนาคารที่เชื่อถือได้"
+   },
+   "search_rating_loading": {
+      "message": "กำลังโหลด ..."
+   },
+   "search_rating_restricted": {
+      "message": "เว็บไซต์นี้มีเนื้อหาที่ถูกจำกัด"
+   },
+   "search_rating_safe": {
+      "message": "เว็บไซต์นี้ดูปลอดภัย"
+   },
+   "search_rating_safe_p1": {
+      "message": "เว็บไซต์นี้ปลอดภัย"
+   },
+   "search_rating_safe_p2": {
+      "message": "ขอให้มีความสุขกับการท่องเว็บบนนี้"
+   },
+   "search_rating_shopping_caution": {
+      "message": "เว็บไซต์นี้ไม่ใช่เว็บไซต์ที่มีคะแนนสูง"
+   },
+   "search_rating_shopping_caution2": {
+      "message": "เว็บไซต์ช็อปปิ้งนี้อาจจะปลอดภัย แต่ไม่ได้รับคะแนนเต็ม"
+   },
+   "search_rating_shopping_suspicious": {
+      "message": "เว็บไซต์นี้น่าสงสัย"
+   },
+   "search_rating_shopping_warn": {
+      "message": "เว็บไซต์นี้อาจจะไม่ปลอดภัย"
+   },
+   "search_rating_suspicious": {
+      "message": "เว็บไซต์นี้น่าสงสัย"
+   },
+   "search_rating_suspicious_p1": {
+      "message": "เว็บไซต์นี้น่าสงสัย"
+   },
+   "search_rating_suspicious_p2": {
+      "message": "โปรดใช้ความระมัดระวังในระหว่างการท่องเว็บ"
+   },
+   "search_rating_unknown": {
+      "message": "เว็บไซต์นี้ยังไม่ได้รับการวิเคราะห์"
+   },
+   "trusted_shopping_harmful": {
+      "message": "คุณได้เปิดเว็บไซต์ช้อปปิ้งที่ไม่ปลอดภัย"
+   },
+   "trusted_shopping_instructions": {
+      "message": "เปลี่ยนค่าการมองเห็นการแจ้งเตือนนี้ในการตั้งค่า $PRODUCT_NAME$",
+      "placeholders": {
+         "PRODUCT_NAME": {
+            "content": "$1"
+         }
+      }
+   },
+   "trusted_shopping_review": {
+      "message": "อิงจากบทวิจารณ์และคะแนนด้านความปลอดภัยหลายๆ รายการ"
+   },
+   "trusted_shopping_risky": {
+      "message": "เว็บไซต์นี้อาจไม่ปลอดภัย ขอแนะนำให้คุณใช้ความระมัดระวังในการใช้เว็บไซต์นี้"
+   },
+   "trusted_shopping_safe_p1": {
+      "message": "การชอปปิ้งบนเว็บไซต์นี้ปลอดภัย"
+   },
+   "trusted_shopping_safe_p2": {
+      "message": "เว็บไซต์ช็อปปิ้งแห่งนี้ได้รับการให้คะแนนสูงและเชื่อถือได้ ขอให้คุณเพลิดเพลินกับการช็อปปิ้งของคุณ!"
+   },
+   "trusted_shopping_suspicious_p1": {
+      "message": "เว็บไซต์นี้ไม่ได้รับความไว้วางใจอย่างสมบูรณ์ ขอแนะนำให้คุณใช้ความระมัดระวังในการใช้เว็บไซต์นี้"
+   },
+   "trusted_shopping_suspicious_p2": {
+      "message": "แนะนำให้ใช้ความระมัดระวังในขณะที่ช้อปปิ้งบนเว็บไซต์นี้"
+   },
+   "trusted_shopping_unknown_p1": {
+      "message": "เว็บไซต์นี้ยังไม่ได้รับการวิเคราะห์"
+   },
+   "trusted_shopping_unknown_p2": {
+      "message": "แนะนำให้ใช้ความระมัดระวังในขณะที่ช้อปปิ้งบนเว็บไซต์นี้"
+   },
+   "trusted_shopping_warning_p1": {
+      "message": "การชอปปิ้งบนเว็บไซต์นี้อาจปลอดภัย แต่ก็ไม่ได้รับคะแนนความปลอดภัยเต็ม"
+   },
+   "url_not_available": {
+      "message": "ไม่มี URL ที่สามารถใช้งานได้"
+   },
+   "website_categories": {
+      "message": "หมวดหมู่เว็บไซต์"
+   }
+}

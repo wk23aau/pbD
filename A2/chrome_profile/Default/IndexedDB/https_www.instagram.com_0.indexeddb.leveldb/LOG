@@ -1,0 +1,6 @@
+2026/01/23-01:21:09.751 3618 Creating DB C:\Users\wk23aau\Downloads\xspace\xswarm\A1\chrome_profile\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb since it was missing.
+2026/01/23-01:21:09.768 3618 Reusing MANIFEST C:\Users\wk23aau\Downloads\xspace\xswarm\A1\chrome_profile\Default\IndexedDB\https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/23-01:25:26.202 4718 Level-0 table #5: started
+2026/01/23-01:25:26.207 4718 Level-0 table #5: 140915 bytes OK
+2026/01/23-01:25:26.212 4718 Delete type=0 #3
+2026/01/23-01:25:26.212 4718 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

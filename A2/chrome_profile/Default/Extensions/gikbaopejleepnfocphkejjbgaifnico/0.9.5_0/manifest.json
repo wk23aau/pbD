@@ -1,0 +1,71 @@
+{
+   "action": {
+      "default_title": "Ripple Tool - Help is available right now, for you"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "include_globs": [ "*://*.google.*/search*", "*://duckduckgo.*", "*://*.yahoo.*/search*", "*://*.bing.*/search*", "*://*.ask.*/web*", "*://*.ecosia.*/search*", "*://*.youtube.*" ],
+      "js": [ "popup.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style.css" ],
+      "include_globs": [ "*://*.google.*/search?*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style_ddg.css" ],
+      "include_globs": [ "*://duckduckgo.*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style_yahoo.css" ],
+      "include_globs": [ "*://*.yahoo.*/search*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style.css" ],
+      "include_globs": [ "*://*.bing.*/search?*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style_ask.css" ],
+      "include_globs": [ "*://*.ask.*/web?*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style_ecosia.css" ],
+      "include_globs": [ "*://*.ecosia.*/search?*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/style_youtube.css" ],
+      "include_globs": [ "*://*.youtube.*" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Ripple Tools provide mental health sign posting, in browser",
+   "icons": {
+      "128": "image_assets/icon/128x128_Ripple_Icon.png",
+      "16": "image_assets/icon/16x16_Ripple_Icon.png",
+      "48": "image_assets/icon/48x48_Ripple_Icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqON1kRz2Ih91Cki/oWGkXCRj+VEC1OU1N6CAe5/rGb3as7H/mr5E7VhtVxH/FQEVKqXw1HNGVhNdhF9XnqzZSMKup8yEHaKPIOhp1lRaULoR3psm4+qChDm1GluQhgksrKofJkj2POW5w7F4gxhP/utYYKdtZAvMJgwZWeYziDdAokwMwV4fZKqS0QLZNt7wNcF9Ph5901l8i208iC9/w56tGHbpdGW6+8WGnf4u/CxYvK3TuCQSC5lLQYYcpvp67zOUj0RE0NyoS/8Gldby5mPxNFx3PY13DU1xLEagkTy/3jubh3l3xXHskeyvXzc0jcDIE4jiGnQm6vNxlAZnNQIDAQAB",
+   "manifest_version": 3,
+   "name": "Ripple Tool",
+   "permissions": [ "storage" ],
+   "short_name": "Ripple Tools",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.5",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "js/*", "html/*", "data.json", "css/*" ]
+   } ]
+}
