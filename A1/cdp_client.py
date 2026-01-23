@@ -279,6 +279,36 @@ class CDPClient:
                 return True
             await asyncio.sleep(0.5)
         return False
+    
+    async def click_pixel(self, x: int, y: int) -> bool:
+        """Click at pixel coordinates - fallback for when selector fails"""
+        try:
+            # Mouse down
+            await self.send("Input.dispatchMouseEvent", {
+                "type": "mousePressed",
+                "x": x,
+                "y": y,
+                "button": "left",
+                "clickCount": 1
+            })
+            # Mouse up
+            await self.send("Input.dispatchMouseEvent", {
+                "type": "mouseReleased",
+                "x": x,
+                "y": y,
+                "button": "left",
+                "clickCount": 1
+            })
+            print(f"🖱️ Clicked: ({x}, {y})")
+            return True
+        except Exception as e:
+            print(f"❌ Pixel click failed: {e}")
+            return False
+    
+    async def scroll(self, x: int = 0, y: int = 500):
+        """Scroll page by pixels"""
+        await self.evaluate(f"window.scrollBy({x}, {y})")
+        print(f"📜 Scrolled: ({x}, {y})")
 
 
 # ============ INTERACTIVE MODE ============
@@ -347,11 +377,19 @@ async def interactive():
                 for evt in cdp.network_events[-10:]:
                     print(evt)
             
+            elif action == "pixelclick":
+                x, y = map(int, args.split())
+                await cdp.click_pixel(x, y)
+            
+            elif action == "scroll":
+                y = int(args) if args else 500
+                await cdp.scroll(0, y)
+            
             elif action == "quit":
                 break
             
             else:
-                print("Unknown command. Try: navigate, screenshot, eval, title, click, type, console, network, quit")
+                print("Commands: navigate, screenshot, eval, title, click, pixelclick, scroll, type, console, network, quit")
         
         except KeyboardInterrupt:
             break
