@@ -235,15 +235,58 @@ class CDPClient:
         return result.get("result", {}).get("value")
     
     async def click(self, selector: str) -> bool:
-        """Click element by CSS selector"""
-        result = await self.evaluate(f'''
-            (() => {{
-                const el = document.querySelector("{selector}");
-                if (el) {{ el.click(); return true; }}
-                return false;
-            }})()
-        ''')
-        return result
+        """Click element by CSS selector using bounding box (like subagent)"""
+        try:
+            # First enable DOM domain if not enabled
+            await self.send("DOM.enable")
+            
+            # Get document
+            doc = await self.send("DOM.getDocument")
+            if not doc:
+                return False
+            
+            # Query selector
+            node = await self.send("DOM.querySelector", {
+                "nodeId": doc["root"]["nodeId"],
+                "selector": selector
+            })
+            
+            if not node or node.get("nodeId") == 0:
+                # Fallback to JS click
+                result = await self.evaluate(f'''
+                    (() => {{
+                        const el = document.querySelector("{selector}");
+                        if (el) {{ el.click(); return true; }}
+                        return false;
+                    }})()
+                ''')
+                return result
+            
+            # Get bounding box
+            box = await self.send("DOM.getBoxModel", {"nodeId": node["nodeId"]})
+            if not box or "model" not in box:
+                return False
+            
+            # Get content quad (4 corners)
+            content = box["model"]["content"]
+            # Calculate center
+            x = (content[0] + content[2] + content[4] + content[6]) / 4
+            y = (content[1] + content[3] + content[5] + content[7]) / 4
+            
+            # Click at center using Input.dispatchMouseEvent
+            await self.click_pixel(int(x), int(y))
+            return True
+            
+        except Exception as e:
+            print(f"⚠️ Smart click failed: {e}, trying JS click")
+            result = await self.evaluate(f'''
+                (() => {{
+                    const el = document.querySelector("{selector}");
+                    if (el) {{ el.click(); return true; }}
+                    return false;
+                }})()
+            ''')
+            return result
     
     async def type_text(self, selector: str, text: str) -> bool:
         """Type text into element"""
