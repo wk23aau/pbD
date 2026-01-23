@@ -396,6 +396,91 @@ class CDPClient:
         """Scroll page by pixels"""
         await self.evaluate(f"window.scrollBy({x}, {y})")
         print(f"📜 Scrolled: ({x}, {y})")
+    
+    async def set_viewport(self, width: int = 1280, height: int = 720):
+        """Set fixed viewport size for consistent coordinates"""
+        await self.send("Emulation.setDeviceMetricsOverride", {
+            "width": width,
+            "height": height,
+            "deviceScaleFactor": 1,
+            "mobile": False
+        })
+        print(f"📐 Viewport: {width}x{height}")
+    
+    async def dismiss_popups(self) -> int:
+        """Dismiss common popups (cookies, notifications, dialogs)"""
+        dismissed = 0
+        
+        # Common popup dismiss patterns
+        popup_selectors = [
+            # Cookie popups
+            '[data-cookiebanner="accept_button"]',
+            'button[data-testid="cookie-policy-manage-dialog-accept-button"]',
+            '[aria-label="Allow all cookies"]',
+            'button:contains("Accept")',
+            # Notification popups
+            'button[title="Block"]',
+            '[aria-label="Block"]',
+            # Dialogs
+            'button:contains("Not now")',
+            '[aria-label="Close"]',
+            'button[aria-label="Dismiss"]',
+        ]
+        
+        for selector in popup_selectors:
+            try:
+                result = await self.evaluate(f'''
+                    (() => {{
+                        const el = document.querySelector('{selector}');
+                        if (el) {{ el.click(); return true; }}
+                        return false;
+                    }})()
+                ''')
+                if result:
+                    dismissed += 1
+                    await asyncio.sleep(0.3)
+            except:
+                pass
+        
+        if dismissed:
+            print(f"🚫 Dismissed {dismissed} popup(s)")
+        return dismissed
+    
+    async def analyze_page(self) -> dict:
+        """Analyze current page state - call first before any action"""
+        # Take screenshot
+        screenshot = await self.screenshot("cdp_screenshot.jpg")
+        
+        # Get page info
+        title = await self.get_title()
+        url = await self.evaluate("window.location.href")
+        
+        # Check for popups
+        has_overlay = await self.evaluate('''
+            (() => {
+                const modals = document.querySelectorAll('[role="dialog"], [role="alertdialog"], .modal, .popup, [class*="overlay"]');
+                return modals.length > 0;
+            })()
+        ''')
+        
+        # Get viewport size
+        viewport = await self.evaluate('''
+            JSON.stringify({width: window.innerWidth, height: window.innerHeight})
+        ''')
+        
+        analysis = {
+            "title": title,
+            "url": url,
+            "has_overlay": has_overlay,
+            "viewport": json.loads(viewport) if viewport else {},
+            "screenshot": "cdp_screenshot.jpg"
+        }
+        
+        print(f"📊 Page: {title[:40]}...")
+        print(f"   URL: {url[:50]}...")
+        print(f"   Overlays: {'Yes' if has_overlay else 'No'}")
+        
+        return analysis
 
 
 # ============ INTERACTIVE MODE ============
@@ -472,11 +557,20 @@ async def interactive():
                 y = int(args) if args else 500
                 await cdp.scroll(0, y)
             
+            elif action == "viewport":
+                await cdp.set_viewport()
+            
+            elif action == "popups":
+                await cdp.dismiss_popups()
+            
+            elif action == "analyze":
+                await cdp.analyze_page()
+            
             elif action == "quit":
                 break
             
             else:
-                print("Commands: navigate, screenshot, eval, title, click, pixelclick, scroll, type, console, network, quit")
+                print("Commands: navigate, screenshot, analyze, viewport, popups, click, pixelclick, type, scroll, quit")
         
         except KeyboardInterrupt:
             break
