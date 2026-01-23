@@ -108,6 +108,61 @@ async function handleCommand(msg) {
                 result = "screenshot streaming stopped";
                 break;
 
+            // Wait for element to appear
+            case "waitForElement":
+                result = await waitForElement(params.selector, params.timeout || 10000);
+                break;
+
+            // Cookie management
+            case "getCookies":
+                result = document.cookie;
+                break;
+
+            case "setCookie":
+                document.cookie = `${params.name}=${params.value}; path=${params.path || '/'}`;
+                result = "cookie set";
+                break;
+
+            case "getStorage":
+                result = {
+                    local: { ...localStorage },
+                    session: { ...sessionStorage }
+                };
+                break;
+
+            case "setStorage":
+                if (params.type === 'session') {
+                    sessionStorage.setItem(params.key, params.value);
+                } else {
+                    localStorage.setItem(params.key, params.value);
+                }
+                result = "storage set";
+                break;
+
+            // Iframe access
+            case "getIframes":
+                result = Array.from(document.querySelectorAll('iframe')).map((f, i) => ({
+                    index: i,
+                    src: f.src,
+                    name: f.name,
+                    id: f.id
+                }));
+                break;
+
+            case "iframeEval":
+                const iframe = document.querySelectorAll('iframe')[params.index];
+                if (iframe?.contentWindow) {
+                    result = iframe.contentWindow.eval(params.code);
+                } else {
+                    result = { error: "iframe not accessible" };
+                }
+                break;
+
+            // Stealth detection
+            case "checkStealth":
+                result = detectBotSignals();
+                break;
+
             default:
                 result = { error: "unknown action" };
         }
@@ -223,7 +278,77 @@ function injectCursor() {
     };
 }
 
+// Wait for element with timeout
+function waitForElement(selector, timeout = 10000) {
+    return new Promise((resolve) => {
+        const el = document.querySelector(selector);
+        if (el) {
+            resolve({ found: true, html: el.outerHTML.slice(0, 500) });
+            return;
+        }
+
+        const observer = new MutationObserver(() => {
+            const el = document.querySelector(selector);
+            if (el) {
+                observer.disconnect();
+                resolve({ found: true, html: el.outerHTML.slice(0, 500) });
+            }
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+
+        setTimeout(() => {
+            observer.disconnect();
+            resolve({ found: false, timeout: true });
+        }, timeout);
+    });
+}
+
+// Detect bot signals (anti-bot detection check)
+function detectBotSignals() {
+    return {
+        webdriver: navigator.webdriver,
+        languages: navigator.languages?.length || 0,
+        plugins: navigator.plugins?.length || 0,
+        hardwareConcurrency: navigator.hardwareConcurrency,
+        deviceMemory: navigator.deviceMemory,
+        platform: navigator.platform,
+        userAgent: navigator.userAgent,
+        hasChrome: !!window.chrome,
+        hasNotification: !!window.Notification,
+        hasPermissions: !!navigator.permissions,
+        // Common bot indicators
+        suspicious: {
+            noWebGL: !document.createElement('canvas').getContext('webgl'),
+            noPlugins: navigator.plugins?.length === 0,
+            isWebdriver: navigator.webdriver === true,
+            noLanguages: navigator.languages?.length === 0
+        }
+    };
+}
+
+// Stealth mode injection
+function injectStealth() {
+    // Override webdriver detection
+    Object.defineProperty(navigator, 'webdriver', {
+        get: () => undefined
+    });
+
+    // Fake plugins
+    Object.defineProperty(navigator, 'plugins', {
+        get: () => [1, 2, 3, 4, 5]
+    });
+
+    // Fake languages
+    Object.defineProperty(navigator, 'languages', {
+        get: () => ['en-US', 'en']
+    });
+
+    console.log('🥷 Stealth mode active');
+}
+
 // Initialize
+injectStealth();  // Enable stealth by default
 connect();
 injectCursor();
 
